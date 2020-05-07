@@ -1,0 +1,120 @@
+name: rm
+description: 'Remove (unlink) the FILE(s).'
+versions:
+  "8.28":
+    cmdName: rm
+    contributors:
+    - name: phphe
+      url: https://github.com/phphe
+    options:
+      force: 
+        short: "-f"
+        long: "--force"
+        name: 
+          en: "force"
+        description: 
+          en: "ignore nonexistent files and arguments, never prompt"
+      one-file-system: 
+        long: "--one-file-system"
+        name: 
+          en: "one-file-system"
+        description: 
+          en: "when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument"
+      no-preserve-root: 
+        long: "--no-preserve-root"
+        name: 
+          en: "no-preserve-root"
+        description: 
+          en: "do not treat '/' specially"
+      preserve-root: 
+        long: "--preserve-root"
+        name: 
+          en: "preserve-root"
+        description: 
+          en: "do not remove '/' (default)"
+      recursive: 
+        short: "-r"
+        long: "--recursive"
+        name: 
+          en: "recursive"
+        description: 
+          en: "remove directories and their contents recursively"
+      dir: 
+        short: "-d"
+        long: "--dir"
+        name: 
+          en: "dir"
+        description: 
+          en: "remove empty directories"
+      verbose: 
+        short: "-v"
+        long: "--verbose"
+        name: 
+          en: "verbose"
+        description: 
+          en: "explain what is being done"
+      help: 
+        long: "--help"
+        name: 
+          en: "help"
+        description: 
+          en: "display this help and exit"
+      version: 
+        long: "--version"
+        name: 
+          en: "version"
+        description: 
+          en: "output version information and exit"
+      ask_always: 
+        short: "-i"
+        name: 
+          en: "ask always"
+        description: 
+          en: "prompt before every removal"
+      ask_once: 
+        short: "-I"
+        name: 
+          en: "ask once"
+        description: 
+          en: "prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes"
+      interactive:
+        long: "--interactive"
+        name:
+          en: interactive
+        description:
+          en: "prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always"
+        value: 'always'
+        allowedValues: ['never', 'once', 'always']
+      file:
+        name:
+          en: FILE(s)
+        description:
+          en: "The files to remove"
+        value:
+          en: "path or pattern"
+        multiple: true
+    usages:
+    - name:
+        en: Regular
+        zh-CN: 常规
+      steps:
+      - optional: true
+        multiple: true
+        items:
+        - force
+        - recursive
+        - ask_always
+        - ask_once
+      - optional: true
+        multiple: true
+        items:
+        - one-file-system
+        - no-preserve-root
+        - preserve-root
+        - dir
+        - verbose
+        - help
+        - version
+        - interactive
+      - items:
+        - file
