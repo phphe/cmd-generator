@@ -1,0 +1,133 @@
+name: tail
+description: |-
+  Print the last 10 lines of each FILE to standard output.
+  With more than one FILE, precede each with a header giving the file name.
+  With no FILE, or when FILE is -, read standard input.
+  NUM may have a multiplier suffix: b 512, kB 1000, K 1024, MB 1000*1000, M 1024*1024, GB 1000*1000*1000, G 1024*1024*1024, and so on for T, P, E, Z, Y.
+versions:
+  "8.30":
+    cmdName: head
+    contributors:
+    - name: phphe
+      url: https://github.com/phphe
+    options:
+      bytes: 
+        short: "-c"
+        long: "--bytes"
+        name: 
+          en: "bytes"
+        description: 
+          en: "output the last NUM bytes; or use -c +NUM to output starting with byte NUM of each file"
+        value: 
+          en: "[+]NUM"
+      lines: 
+        short: "-n"
+        long: "--lines"
+        name: 
+          en: "lines"
+        description: 
+          en: "output the last NUM lines, instead of the last 10; or use -n +NUM to output starting with line NUM"
+        value: 
+          en: "[+]NUM"
+      max-unchanged-stats: 
+        long: "--max-unchanged-stats"
+        name: 
+          en: "max-unchanged-stats"
+        description: 
+          en: "with --follow=name, reopen a FILE which has not changed size after N (default 5) iterations to see if it has been unlinked or renamed (this is the usual case of rotated log files); with inotify, this option is rarely useful"
+        value: 
+          en: "N"
+      pid: 
+        long: "--pid"
+        name: 
+          en: "pid"
+        description: 
+          en: "with -f, terminate after process ID, PID dies"
+        value: 
+          en: "PID"
+      retry: 
+        long: "--retry"
+        name: 
+          en: "retry"
+        description: 
+          en: "keep trying to open a file if it is inaccessible"
+      sleep-interval: 
+        short: "-s"
+        long: "--sleep-interval"
+        name: 
+          en: "sleep-interval"
+        description: 
+          en: "with -f, sleep for approximately N seconds (default 1.0) between iterations; with inotify and --pid=P, check process P at least once every N seconds"
+        value: 
+          en: "N"
+      verbose: 
+        short: "-v"
+        long: "--verbose"
+        name: 
+          en: "verbose"
+        description: 
+          en: "always output headers giving file names"
+      zero-terminated: 
+        short: "-z"
+        long: "--zero-terminated"
+        name: 
+          en: "zero-terminated"
+        description: 
+          en: "line delimiter is NUL, not newline"
+      help: 
+        long: "--help"
+        name: 
+          en: "help"
+        description: 
+          en: "display this help and exit"
+      version: 
+        long: "--version"
+        name: 
+          en: "version"
+        description: 
+          en: "output version information and exit"
+      follow: 
+        long: "--follow"
+        short: "--f"
+        name: 
+          en: "follow"
+        description: 
+          en: "output appended data as the file grows; an absent option argument means 'descriptor'"
+        value: 
+          en: "name|descriptor"
+      -F: 
+        short: "-F"
+        name: 
+          en: "same as --follow=name --retry"
+          -F: 
+            short: "-F"
+            name: 
+              en: "same as --follow=name --retry"
+      silent: 
+        long: "--silent"
+        short: "-q"
+        name: 
+          en: "silent"
+        description: 
+          en: "never print headers giving file names"
+      file:
+        name:
+          en: file(s)
+        description:
+          en: "The files"
+        value:
+          en: "path"
+        multiple: true
+    usages:
+    - name:
+        en: Regular
+        zh-CN: 常规
+      steps:
+        - optional: true
+          multiple: true
+          items: ["follow","lines"]
+        - optional: true
+          multiple: true
+          items: ["bytes","max-unchanged-stats","pid","retry","sleep-interval","verbose","zero-terminated","help","version","-F", "silent"]
+        - items:
+          - file
