@@ -82,60 +82,64 @@
           value: true
           noQuotes: true
           valueControls:
-            -
-              -
-                value: 'u'
-                name:
-                  en: file owner
-                  zh-CN: 文件拥有者
-              -
-                value: 'g'
-                name:
-                  en: members of the file's group
-                  zh-CN: 文件群组用户
-              -
-                value: 'o'
-                name:
-                  en: other users
-                  zh-CN: 其他用户
-              -
-                value: 'a'
-                name:
-                  en: all users
-                  zh-CN: 所有用户
-            -
-              -
-                value: '+'
-                name:
-                  en: add
-                  zh-CN: 增加
-              -
-                value: '-'
-                name:
-                  en: remove
-                  zh-CN: 删除
-              -
-                value: '='
-                name:
-                  en: assign
-                  zh-CN: 指定
-            - multiple: true
+            - type: select
               items:
-              -
-                value: r
-                name:
-                  en: read
-                  zh-CN: 读
-              -
-                value: w
-                name:
-                  en: write
-                  zh-CN: 写
-              -
-                value: x
-                name:
-                  en: execute
-                  zh-CN: 执行
+                -
+                  value: 'u'
+                  name:
+                    en: file owner
+                    zh-CN: 文件拥有者
+                -
+                  value: 'g'
+                  name:
+                    en: members of the file's group
+                    zh-CN: 文件群组用户
+                -
+                  value: 'o'
+                  name:
+                    en: other users
+                    zh-CN: 其他用户
+                -
+                  value: 'a'
+                  name:
+                    en: all users
+                    zh-CN: 所有用户
+            - type: select
+              items:
+                -
+                  value: '+'
+                  name:
+                    en: add
+                    zh-CN: 增加
+                -
+                  value: '-'
+                  name:
+                    en: remove
+                    zh-CN: 删除
+                -
+                  value: '='
+                  name:
+                    en: assign
+                    zh-CN: 指定
+            - type: select
+              multiple: true
+              items:
+                items:
+                -
+                  value: r
+                  name:
+                    en: read
+                    zh-CN: 读
+                -
+                  value: w
+                  name:
+                    en: write
+                    zh-CN: 写
+                -
+                  value: x
+                  name:
+                    en: execute
+                    zh-CN: 执行
 
       usages: 
         - 

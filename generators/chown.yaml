@@ -1,0 +1,125 @@
+name: chown
+description:
+  en: |-
+    Change the owner and/or group of each FILE to OWNER and/or GROUP.
+    With --reference, change the owner and group of each FILE to those of RFILE.
+versions:
+  '8.28':
+    cmdName: chown
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      changes:
+        short: '-c'
+        long: '--changes'
+        name:
+          en: changes
+        description:
+          en: like verbose but report only when a change is made
+      silent:
+        short: '-f'
+        long: '--silent'
+        name:
+          en: silent
+        description:
+          en: '--quiet  suppress most error messages'
+      verbose:
+        short: '-v'
+        long: '--verbose'
+        name:
+          en: verbose
+        description:
+          en: output a diagnostic for every file processed
+      dereference:
+        long: '--dereference'
+        name:
+          en: dereference
+        description:
+          en: >-
+            affect the referent of each symbolic link (this is the default),
+            rather than the symbolic link itself
+      no-dereference:
+        short: '-h'
+        long: '--no-dereference'
+        name:
+          en: no-dereference
+        description:
+          en: >-
+            affect symbolic links instead of any referenced file (useful only on
+            systems that can change the ownership of a symlink)
+      from:
+        long: '--from'
+        name:
+          en: from
+        description:
+          en: >-
+            change the owner and/or group of each file only if its current owner
+            and/or group match those specified here.  Either may be omitted, in
+            which case a match is not required for the omitted attribute
+        value:
+          en: 'CURRENT_OWNER:CURRENT_GROUP'
+      no-preserve-root:
+        long: '--no-preserve-root'
+        name:
+          en: no-preserve-root
+        description:
+          en: do not treat '/' specially (the default)
+      preserve-root:
+        long: '--preserve-root'
+        name:
+          en: preserve-root
+        description:
+          en: fail to operate recursively on '/'
+      reference:
+        long: '--reference'
+        name:
+          en: reference
+        description:
+          en: >-
+            use RFILE's owner and group rather than specifying OWNER:GROUP
+            values
+        value:
+          en: RFILE
+      recursive:
+        short: '-R'
+        long: '--recursive'
+        name:
+          en: recursive
+        description:
+          en: operate on files and directories recursively
+      file:
+        name:
+          en: file
+        value:
+          en: "path or pattern"
+        multiple: true
+      "[OWNER][:[GROUP]]":
+        name:
+          en: "[OWNER][:[GROUP]]"
+          zh-CN: "[拥有者][:[用户组]]"
+        value:
+          en: ['owner', 'group']
+          zh-CN: ['拥有者', '用户组']
+        valueControls:
+          - type: "string"
+          - type: "string"
+        noQuotes: true
+        getValue: "(value) => {
+          var r = [];
+          if (value[0]) {r.push(value[0])}
+          if (value[1]) {r.push(':', value[1])}
+          return r.join('')
+        }"
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+        - items: ["changes", "recursive"]
+          optional: true
+        - items: ["silent","verbose","dereference","no-dereference","from","no-preserve-root","preserve-root","reference"]
+          optional: true
+          multiple: true
+        - items: ["[OWNER][:[GROUP]]"]
+        - items: ["file"]
