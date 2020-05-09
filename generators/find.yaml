@@ -282,6 +282,10 @@ versions:
         long: "-empty"
         name: "empty"
         description: "empty file or directory"
+      delete:
+        long: "-delete"
+        name: "delete"
+        description: "delete found files"
     usages:
       - name:
           en: Regular
@@ -290,6 +294,9 @@ versions:
           - items: ['path']
           - items: ['name', 'iname']
           - items: ['perm', 'user', 'group', 'type', 'size', 'sizeRange', 'amin', 'aminRange', 'atime', 'atimeRange', 'cmin', 'cminRange', 'ctime', 'ctimeRange', 'mmin', 'mminRange', 'mtime', 'mtimeRange', 'empty']
+            optional: true
+            multiple: true
+          - items: ['delete']
             optional: true
             multiple: true
 
