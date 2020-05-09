@@ -1,0 +1,109 @@
+name: grep
+description:
+  en: |-
+    Search for PATTERN in each FILE.
+    Example: grep -i 'hello world' menu.h main.c
+  zh-CN: |-
+    在文件中搜索正则表达式.
+versions:
+  '3.1':
+    cmdName: grep
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      extended-regexp:
+        short: '-E'
+        long: '--extended-regexp'
+        name:
+          en: extended-regexp
+        description:
+          en: PATTERN is an extended regular expression
+      fixed-strings:
+        short: '-F'
+        long: '--fixed-strings'
+        name:
+          en: fixed-strings
+        description:
+          en: PATTERN is a set of newline-separated strings
+      basic-regexp:
+        short: '-G'
+        long: '--basic-regexp'
+        name:
+          en: basic-regexp
+        description:
+          en: PATTERN is a basic regular expression (default)
+      perl-regexp:
+        short: '-P'
+        long: '--perl-regexp'
+        name:
+          en: perl-regexp
+        description:
+          en: PATTERN is a Perl regular expression
+      regexp:
+        short: '-e'
+        long: '--regexp'
+        name:
+          en: regexp
+        description:
+          en: use PATTERN for matching
+        value:
+          en: PATTERN
+      file:
+        short: '-f'
+        long: '--file'
+        name:
+          en: file
+        description:
+          en: obtain PATTERN from FILE
+        value:
+          en: FILE
+      ignore-case:
+        short: '-i'
+        long: '--ignore-case'
+        name:
+          en: ignore-case
+        description:
+          en: ignore case distinctions
+      word-regexp:
+        short: '-w'
+        long: '--word-regexp'
+        name:
+          en: word-regexp
+        description:
+          en: force PATTERN to match only whole words
+      line-regexp:
+        short: '-x'
+        long: '--line-regexp'
+        name:
+          en: line-regexp
+        description:
+          en: force PATTERN to match only whole lines
+      null-data:
+        short: '-z'
+        long: '--null-data'
+        name:
+          en: null-data
+        description:
+          en: 'a data line ends in 0 byte, not newline'
+      pattern:
+        name:
+          en: pattern
+        value:
+          en: "pattern"
+      file:
+        name:
+          en: file
+        value:
+          en: "file or dir"
+        multiple: true
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - items: ["extended-regexp","fixed-strings","basic-regexp","perl-regexp","regexp","file","ignore-case","word-regexp","line-regexp","null-data"]
+            multiple: true
+            optional: true
+          - items: ['pattern']
+          - items: ['file']
