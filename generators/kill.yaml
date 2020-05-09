@@ -1,0 +1,61 @@
+name: kill
+description:
+  en: 'The kill command sends a signal to specified processes or process groups, causing them to act according to the signal. When the signal is not specified, it defaults to -15 (-TERM).'
+  zh-CN: 'kill命令向指定的进程或进程组发送信号，使其根据信号执行。当没有指定该信号时，它的默认值为-15（-TERM）。'
+versions:
+  3.3.12:
+    cmdName: kill
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      signal:
+        long: '--signal'
+        name:
+          en: signal
+        description:
+          en: <signal> specify the <signal> to be sent
+      list:
+        short: '-l'
+        long: '--list'
+        name:
+          en: list
+        description:
+          en: 'list all signal names, or convert one to a name'
+        value:
+          en: '[<signal>]'
+      table:
+        short: '-L'
+        long: '--table'
+        name:
+          en: table
+        description:
+          en: list all signal names in a nice table
+      help:
+        short: '-h'
+        long: '--help'
+        name:
+          en: help
+        description:
+          en: display this help and exit
+      version:
+        short: '-V'
+        long: '--version'
+        name:
+          en: version
+        description:
+          en: output version information and exit
+      pid:
+        name:
+          en: pid
+        value: ''
+        multiple: true
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - items: ["signal","list","table","help","version"]
+            optional: true
+            multiple: true
+          - items: ['pid']
