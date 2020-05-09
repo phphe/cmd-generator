@@ -22,8 +22,7 @@ versions:
           en: block-size
         description:
           en: >-
-            scale sizes by SIZE before printing them; '-BM' prints sizes
-            in units of 1,048,576 bytes; see SIZE format below
+            scale sizes by SIZE before printing them
         value: true
         allowedValues: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB', 'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']
         noQuotes: true
