@@ -1,0 +1,175 @@
+name: locate
+description:
+  en: 'mlocate. Search for entries in a mlocate database.'
+versions:
+  '0.26':
+    cmdName: locate
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      all:
+        short: '-A'
+        long: '--all'
+        name:
+          en: all
+        description:
+          en: only print entries that match all patterns
+      basename:
+        short: '-b'
+        long: '--basename'
+        name:
+          en: basename
+        description:
+          en: match only the base name of path names
+      count:
+        short: '-c'
+        long: '--count'
+        name:
+          en: count
+        description:
+          en: only print number of found entries
+      database:
+        short: '-d'
+        long: '--database'
+        name:
+          en: database
+        description:
+          en: >-
+            DBPATH  use DBPATH instead of default database (which is
+            /var/lib/mlocate/mlocate.db)
+      existing:
+        short: '-e'
+        long: '--existing'
+        name:
+          en: existing
+        description:
+          en: only print entries for currently existing files
+      follow:
+        short: '-L'
+        long: '--follow'
+        name:
+          en: follow
+        description:
+          en: >-
+            follow trailing symbolic links when checking file existence
+            (default)
+      help:
+        short: '-h'
+        long: '--help'
+        name:
+          en: help
+        description:
+          en: print this help
+      ignore-case:
+        short: '-i'
+        long: '--ignore-case'
+        name:
+          en: ignore-case
+        description:
+          en: ignore case distinctions when matching patterns
+      ignore-spaces:
+        short: '-p'
+        long: '--ignore-spaces'
+        name:
+          en: ignore-spaces
+        description:
+          en: ignore punctuation and spaces when matching patterns
+      transliterate:
+        short: '-t'
+        long: '--transliterate'
+        name:
+          en: transliterate
+        description:
+          en: ignore accents using iconv transliteration when matching patterns
+      limit:
+        short: '-l'
+        long: '--limit'
+        name:
+          en: limit
+        description:
+          en: 'limit output (or counting) to LIMIT entries'
+        value: 'n'
+      mmap:
+        short: '-m'
+        long: '--mmap'
+        name:
+          en: mmap
+        description:
+          en: 'ignored, for backward compatibility'
+      nofollow:
+        short: '-P'
+        long: '--nofollow'
+        name:
+          en: nofollow
+        description:
+          en: >-
+            -H     don't follow trailing symbolic links when checking file
+            existence
+      'null':
+        short: '-0'
+        long: '--null'
+        name:
+          en: 'null'
+        description:
+          en: separate entries with NUL on output
+      statistics:
+        short: '-S'
+        long: '--statistics'
+        name:
+          en: statistics
+        description:
+          en: 'don''t search for entries, print statistics about each used database'
+      quiet:
+        short: '-q'
+        long: '--quiet'
+        name:
+          en: quiet
+        description:
+          en: report no error messages about reading databases
+      regexp:
+        short: '-r'
+        long: '--regexp'
+        name:
+          en: regexp
+        description:
+          en: REGEXP    search for basic regexp REGEXP instead of patterns
+      regex:
+        long: '--regex'
+        name:
+          en: regex
+        description:
+          en: patterns are extended regexps
+      stdio:
+        short: '-s'
+        long: '--stdio'
+        name:
+          en: stdio
+        description:
+          en: 'ignored, for backward compatibility'
+      version:
+        short: '-V'
+        long: '--version'
+        name:
+          en: version
+        description:
+          en: print version information
+      wholename:
+        short: '-w'
+        long: '--wholename'
+        name:
+          en: wholename
+        description:
+          en: match whole path name (default)
+      pattern:
+        name:
+          en: pattern
+        value: pattern
+        multiple: true
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - items: ["all","basename","count","database","existing","follow","help","ignore-case","ignore-spaces","transliterate","limit","mmap","nofollow","null","statistics","quiet","regexp","regex","stdio","version","wholename"]
+          - items: ['pattern']
