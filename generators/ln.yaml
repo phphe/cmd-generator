@@ -1,0 +1,161 @@
+name: ln
+description:
+  en: |-
+    Create hard links by default, symbolic links with --symbolic.
+    By default, each destination (name of new link) should not already exist.
+    When creating hard links, each TARGET must exist.  Symbolic links can hold arbitrary text; if later resolved, a relative link is nterpreted in relation to its parent directory.
+versions:
+  '8.28':
+    cmdName: ln
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      backup:
+        long: '--backup'
+        name:
+          en: backup
+        description:
+          en: '[=CONTROL]      make a backup of each existing destination file'
+      directory:
+        short: '-d'
+        long: '--directory'
+        name:
+          en: directory
+        description:
+          en: >-
+            allow the superuser to attempt to hard link directories (note: will
+            probably fail due to system restrictions, even for the superuser)
+      force:
+        short: '-f'
+        long: '--force'
+        name:
+          en: force
+        description:
+          en: remove existing destination files
+      interactive:
+        short: '-i'
+        long: '--interactive'
+        name:
+          en: interactive
+        description:
+          en: prompt whether to remove destinations
+      logical:
+        short: '-L'
+        long: '--logical'
+        name:
+          en: logical
+        description:
+          en: dereference TARGETs that are symbolic links
+      no-dereference:
+        short: '-n'
+        long: '--no-dereference'
+        name:
+          en: no-dereference
+        description:
+          en: >-
+            treat LINK_NAME as a normal file if it is a symbolic link to a
+            directory
+      physical:
+        short: '-P'
+        long: '--physical'
+        name:
+          en: physical
+        description:
+          en: make hard links directly to symbolic links
+      relative:
+        short: '-r'
+        long: '--relative'
+        name:
+          en: relative
+        description:
+          en: create symbolic links relative to link location
+      symbolic:
+        short: '-s'
+        long: '--symbolic'
+        name:
+          en: symbolic
+        description:
+          en: make symbolic links instead of hard links
+      suffix:
+        short: '-S'
+        long: '--suffix'
+        name:
+          en: suffix
+        description:
+          en: override the usual backup suffix
+        value:
+          en: SUFFIX
+      target-directory:
+        short: '-t'
+        long: '--target-directory'
+        name:
+          en: target-directory
+        description:
+          en: specify the DIRECTORY in which to create the links
+        value: './'
+      no-target-directory:
+        short: '-T'
+        long: '--no-target-directory'
+        name:
+          en: no-target-directory
+        description:
+          en: treat LINK_NAME as a normal file always
+      verbose:
+        short: '-v'
+        long: '--verbose'
+        name:
+          en: verbose
+        description:
+          en: print name of each linked file
+      help:
+        long: '--help'
+        name:
+          en: help
+        description:
+          en: display this help and exit
+      version:
+        long: '--version'
+        name:
+          en: version
+        description:
+          en: output version information and exit
+      '-b':
+        short: '-b'
+        name:
+          en: like --backup but does not accept an argument
+      target:
+        name:
+          en: target
+        description:
+          en: "target file"
+        value:
+          en: "path"
+      targets:
+        name:
+          en: targets
+        description:
+          en: "target files"
+        value:
+          en: "path"
+        multiple: true
+      link_name:
+        name:
+          en: link name
+        value:
+          en: ""
+    usages:
+      - name:
+          en: Single
+          zh-CN: 单个
+        steps:
+          - items: ["symbolic", "force", "interactive", "backup","directory","logical","no-dereference","physical","relative","suffix","target-directory","no-target-directory","verbose","help","version","-b"]
+          - items: ['target']
+          - items: ['link_name']
+      - name:
+          en: Multiple
+          zh-CN: 多个
+        steps:
+          - items: ['target-directory']
+          - items: ["symbolic", "force", "interactive", "backup","directory","logical","no-dereference","physical","relative","suffix","no-target-directory","verbose","help","version","-b"]
+          - items: ['targets']
