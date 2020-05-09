@@ -1,0 +1,152 @@
+---
+  name: "chmod"
+  description: |-
+    Change the mode of each FILE to MODE.
+    With --reference, change the mode of each FILE to that of RFILE.
+  versions: 
+    "8.28": 
+      cmdName: "chmod"
+      contributors: 
+        - 
+          name: "phphe"
+          url: "https://github.com/phphe"
+      options: 
+        changes: 
+          short: "-c"
+          long: "--changes"
+          name: 
+            en: "changes"
+          description: 
+            en: "like verbose but report only when a change is made"
+        silent: 
+          short: "-f"
+          long: "--silent"
+          name: 
+            en: "silent"
+          description: 
+            en: "--quiet  suppress most error messages"
+        verbose: 
+          short: "-v"
+          long: "--verbose"
+          name: 
+            en: "verbose"
+          description: 
+            en: "output a diagnostic for every file processed"
+        no-preserve-root: 
+          long: "--no-preserve-root"
+          name: 
+            en: "no-preserve-root"
+          description: 
+            en: "do not treat '/' specially (the default)"
+        preserve-root: 
+          long: "--preserve-root"
+          name: 
+            en: "preserve-root"
+          description: 
+            en: "fail to operate recursively on '/'"
+        reference: 
+          long: "--reference"
+          name: 
+            en: "reference"
+          description: 
+            en: "use RFILE's mode instead of MODE values"
+          value: 
+            en: "RFILE"
+        recursive: 
+          short: "-R"
+          long: "--recursive"
+          name: 
+            en: "recursive"
+          description: 
+            en: "change files and directories recursively"
+        help: 
+          long: "--help"
+          name: 
+            en: "help"
+          description: 
+            en: "display this help and exit"
+        version: 
+          long: "--version"
+          name: 
+            en: "version"
+          description: 
+            en: "output version information and exit"
+        file:
+          name:
+            en: file
+          value:
+            en: "path"
+          multiple: true
+        "OCTAL-MODE":
+          name: "OCTAL-MODE"
+          value: true
+          noQuotes: true
+          valueControls:
+            -
+              -
+                value: 'u'
+                name:
+                  en: file owner
+                  zh-CN: 文件拥有者
+              -
+                value: 'g'
+                name:
+                  en: members of the file's group
+                  zh-CN: 文件群组用户
+              -
+                value: 'o'
+                name:
+                  en: other users
+                  zh-CN: 其他用户
+              -
+                value: 'a'
+                name:
+                  en: all users
+                  zh-CN: 所有用户
+            -
+              -
+                value: '+'
+                name:
+                  en: add
+                  zh-CN: 增加
+              -
+                value: '-'
+                name:
+                  en: remove
+                  zh-CN: 删除
+              -
+                value: '='
+                name:
+                  en: assign
+                  zh-CN: 指定
+            - multiple: true
+              items:
+              -
+                value: r
+                name:
+                  en: read
+                  zh-CN: 读
+              -
+                value: w
+                name:
+                  en: write
+                  zh-CN: 写
+              -
+                value: x
+                name:
+                  en: execute
+                  zh-CN: 执行
+
+      usages: 
+        - 
+          name: 
+            en: "Regular"
+            zh-CN: "常规"
+          steps:
+            - items: ["recursive"]
+              optional: true
+            - items: ["changes","silent","verbose","no-preserve-root","preserve-root","reference","help","version"]
+              optional: true
+              multiple: true
+            - items: ["OCTAL-MODE"]
+            - items: ["file"]
