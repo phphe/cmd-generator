@@ -1,0 +1,63 @@
+name: whereis
+description:
+  en: |-
+    Locate the binary, source, and manual-page files for a command.
+    Usage: whereis [options] [-BMS <dir>... -f] <name>
+versions:
+  2.31.1:
+    cmdName: whereis
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      help:
+        short: '-h'
+        long: '--help'
+        name:
+          en: help
+        description:
+          en: display this help
+      version:
+        short: '-V'
+        long: '--version'
+        name:
+          en: version
+        description:
+          en: display version
+      '-b':
+        short: '-b'
+        name:
+          en: search only for binaries
+      '-m':
+        short: '-m'
+        name:
+          en: search only for manuals and infos
+      '-s':
+        short: '-s'
+        name:
+          en: search only for sources
+      '-f':
+        short: '-f'
+        name:
+          en: terminate <dirs> argument list
+      '-u':
+        short: '-u'
+        name:
+          en: search for unusual entries
+      '-l':
+        short: '-l'
+        name:
+          en: output effective lookup paths
+      'filename':
+        name:
+          en: filename
+        value: filename
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - items: ["help","version","-b","-m","-s","-f","-u","-l"]
+            optional: true
+            multiple: true
+          - items: ['filename']

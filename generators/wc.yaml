@@ -1,0 +1,77 @@
+name: wc
+description:
+  en: 'Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.  A word is a non-zero-length sequence of characters delimited by white space.'
+versions:
+  '8.28':
+    cmdName: wc
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      bytes:
+        short: '-c'
+        long: '--bytes'
+        name:
+          en: bytes
+        description:
+          en: print the byte counts
+      chars:
+        short: '-m'
+        long: '--chars'
+        name:
+          en: chars
+        description:
+          en: print the character counts
+      lines:
+        short: '-l'
+        long: '--lines'
+        name:
+          en: lines
+        description:
+          en: print the newline counts
+      files0-from:
+        long: '--files0-from'
+        name:
+          en: files0-from
+        description:
+          en: >-
+            read input from the files specified by NUL-terminated names in file
+            F; If F is - then read names from standard input
+        value:
+          en: file
+        multiple: true
+      max-line-length:
+        short: '-L'
+        long: '--max-line-length'
+        name:
+          en: max-line-length
+        description:
+          en: print the maximum display width
+      words:
+        short: '-w'
+        long: '--words'
+        name:
+          en: words
+        description:
+          en: print the word counts
+      help:
+        long: '--help'
+        name:
+          en: help
+        description:
+          en: display this help and exit
+      version:
+        long: '--version'
+        name:
+          en: version
+        description:
+          en: output version information and exit
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - items: ["bytes","chars","lines","max-line-length","words","help","version"]
+            optional: true
+            multiple: true
+          - items: ['files0-from']
