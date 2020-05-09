@@ -118,6 +118,7 @@ versions:
         steps:
         - items: ["changes", "recursive"]
           optional: true
+          multiple: true
         - items: ["silent","verbose","dereference","no-dereference","from","no-preserve-root","preserve-root","reference"]
           optional: true
           multiple: true

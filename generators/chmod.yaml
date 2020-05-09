@@ -149,6 +149,7 @@
           steps:
             - items: ["recursive"]
               optional: true
+              multiple: true
             - items: ["changes","silent","verbose","no-preserve-root","preserve-root","reference","help","version"]
               optional: true
               multiple: true

@@ -1,0 +1,151 @@
+name: df
+description:
+  en: 'Show information about the file system on which each FILE resides, or all file systems by default.'
+versions:
+  '8.28':
+    cmdName: df
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      all:
+        short: '-a'
+        long: '--all'
+        name:
+          en: all
+        description:
+          en: 'include pseudo, duplicate, inaccessible file systems'
+      block-size:
+        short: '-B'
+        long: '--block-size'
+        name:
+          en: block-size
+        description:
+          en: >-
+            scale sizes by SIZE before printing them; '-BM' prints sizes
+            in units of 1,048,576 bytes; see SIZE format below
+        value: true
+        allowedValues: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB', 'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']
+        noQuotes: true
+      human-readable:
+        short: '-h'
+        long: '--human-readable'
+        name:
+          en: human-readable
+        description:
+          en: 'print sizes in powers of 1024 (e.g., 1023M)'
+      "1k=1000":
+        short: '-H'
+        long: '--si'
+        name:
+          en: "1k=1000"
+        description:
+          en: 'print sizes in powers of 1000 (e.g., 1.1G)'
+      inodes:
+        short: '-i'
+        long: '--inodes'
+        name:
+          en: inodes
+        description:
+          en: list inode information instead of block usage
+      local:
+        short: '-l'
+        long: '--local'
+        name:
+          en: local
+        description:
+          en: limit listing to local file systems
+      no-sync:
+        long: '--no-sync'
+        name:
+          en: no-sync
+        description:
+          en: do not invoke sync before getting usage info (default)
+      output:
+        long: '--output'
+        name:
+          en: output
+        description:
+          en: >-
+            [=FIELD_LIST]  use the output format defined by FIELD_LIST, or print
+            all fields if FIELD_LIST is omitted.
+      portability:
+        short: '-P'
+        long: '--portability'
+        name:
+          en: portability
+        description:
+          en: use the POSIX output format
+      sync:
+        long: '--sync'
+        name:
+          en: sync
+        description:
+          en: invoke sync before getting usage info
+      total:
+        long: '--total'
+        name:
+          en: total
+        description:
+          en: >-
+            elide all entries insignificant to available space, and produce a
+            grand total
+      type:
+        short: '-t'
+        long: '--type'
+        name:
+          en: type
+        description:
+          en: limit listing to file systems of type TYPE
+        value:
+          en: TYPE
+      print-type:
+        short: '-T'
+        long: '--print-type'
+        name:
+          en: print-type
+        description:
+          en: print file system type
+      exclude-type:
+        short: '-x'
+        long: '--exclude-type'
+        name:
+          en: exclude-type
+        description:
+          en: limit listing to file systems not of type TYPE
+        value:
+          en: TYPE
+      help:
+        long: '--help'
+        name:
+          en: help
+        description:
+          en: display this help and exit
+      version:
+        long: '--version'
+        name:
+          en: version
+        description:
+          en: output version information and exit
+      '-k':
+        short: '-k'
+        name:
+          en: like --block-size=1K
+      file:
+        name:
+          en: file
+        value:
+          en: "path or pattern"
+        multiple: true
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - items: ["block-size", "human-readable", "1k=1000", "all"]
+            optional: true
+            multiple: true
+          - items: ["block-size","inodes","local","no-sync","output","portability","sync","total","type","print-type","exclude-type","help","version", "-k"]
+            optional: true
+            multiple: true
+          - items: ['file']
