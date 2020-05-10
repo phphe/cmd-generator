@@ -1,0 +1,136 @@
+name: scp
+description: 'secure copy (remote file copy program)'
+related: ['rcp', 'sftp', 'ssh', 'ssh-add', 'ssh-agent', 'ssh-keygen', 'ssh-config', 'sshd', 'scp']
+versions:
+  "unknown":
+    cmdName: scp
+    contributors:
+    - name: phphe
+      url: https://github.com/phphe
+    options:
+      'ssh1':
+        short: '-1'
+        name: 'ssh1'
+        description:
+          zh-CN: 使用协议ssh1
+      'ssh2':
+        short: '-2'
+        name: 'ssh2'
+        description:
+          zh-CN: 使用协议ssh2
+      'ipv4':
+        short: '-4'
+        name: 'ipv4'
+        description:
+          zh-CN: 只使用IPv4寻址
+      'ipv6':
+        short: '-6'
+        name: 'ipv6'
+        description:
+          zh-CN: 只使用IPv6寻址
+      'batch':
+        short: '-B'
+        name: 'batch'
+        description:
+          zh-CN: 使用批处理模式（传输过程中不询问传输口令或短语）
+      'compress':
+        short: '-C'
+        name: 'compress'
+        description:
+          zh-CN: 压缩
+      'preserve':
+        short: '-p'
+        name:
+          en: Preserves modification times, access times, and modes from the original file.
+          zh-CN: 保留文件的修改时间，访问时间和访问权限。
+      'quiet':
+        short: '-q'
+        name: 'quiet'
+        description:
+          en: 'Quiet mode: disables the progress meter as well as warning and diagnostic messages from ssh(1).'
+          zh-CN: 不显示传输进度条。
+      'recursively':
+        short: '-r'
+        name: 'recursively'
+        description:
+          en: Recursively copy entire directories. 
+          zh-CN: 递归复制整个目录。
+      'verbose':
+        short: '-v'
+        name: 'verbose'
+        description:
+          zh-CN: 显示详细输出。
+      cipher:
+        short: '-c'
+        name: cipher
+        description:
+          zh-CN: 以cipher将数据传输进行加密，这个选项将直接传递给ssh。
+      ssh_config:
+        short: '-F'
+        name: ssh_config
+        description:
+          zh-CN: 指定一个替代的ssh配置文件，此参数直接传递给ssh。
+      identity_file:
+        short: '-i'
+        name: identity file
+        value: 'path'
+      limit:
+        short: '-l'
+        name: limit
+        description:
+          zh-CN: 限定用户所能使用的带宽，以Kbit/s为单位。
+        value: ''
+      ssh_option:
+        short: '-o'
+        name: ssh_option
+        description:
+          zh-CN: 如果习惯于使用ssh_config(5)中的参数传递方式，
+      port:
+        short: '-P'
+        name: port
+        value: '22'
+      program:
+        short: '-S'
+        name: program
+        description:
+          zh-CN: 指定加密传输时所使用的程序。此程序必须能够理解ssh(1)的选项。
+        value: ''
+      file:
+        name:
+          en: file path
+        value:
+          en: "path"
+      server_and_path:
+        name:
+          en: server login and file path
+          zh-CN: 服务器登录信息和文件路径
+        value: 
+          en: ['user', '@', 'host', ':', 'file path']
+          zh-CN: ['用户', '@', '主机', ':', '文件路径']
+        valueControls:
+          - type: string
+          - type: specified_string
+            value: '@'
+          - type: string
+          - type: specified_string
+            value: ':'
+          - type: string
+    usages:
+    - name:
+        en: Copy local files to the server
+        zh-CN: 复制本地文件到服务器
+      steps:
+        - optional: true
+          multiple: true
+          items: ["port","identity_file", "recursively","preserve", "batch", "cipher", "compress", "ipv4", "ipv6", "limit", "program", "quiet", "ssh1", "ssh2", "ssh_config", "ssh_option", "verbose"]
+        - items: ['file']
+        - items: ['server_and_path']
+    - name:
+        en: Copy server files to local
+        zh-CN: 复制服务器文件到本地
+      steps:
+        - optional: true
+          multiple: true
+          items: ["port","identity_file", "recursively","preserve", "batch", "cipher", "compress", "ipv4", "ipv6", "limit", "program", "quiet", "ssh1", "ssh2", "ssh_config", "ssh_option", "verbose"]
+        - items: ['server_and_path']
+        - items: ['file']

@@ -124,22 +124,21 @@
             - type: select
               multiple: true
               items:
-                items:
-                -
-                  value: r
-                  name:
-                    en: read
-                    zh-CN: 读
-                -
-                  value: w
-                  name:
-                    en: write
-                    zh-CN: 写
-                -
-                  value: x
-                  name:
-                    en: execute
-                    zh-CN: 执行
+              -
+                value: r
+                name:
+                  en: read
+                  zh-CN: 读
+              -
+                value: w
+                name:
+                  en: write
+                  zh-CN: 写
+              -
+                value: x
+                name:
+                  en: execute
+                  zh-CN: 执行
 
       usages: 
         - 

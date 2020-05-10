@@ -1,6 +1,6 @@
 name: ssh
 description: 'Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Typical applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH.'
-related: ['ssh-keygen', 'ssh-copy-id']
+related: ['ssh-keygen', 'ssh-copy-id', 'scp', 'sshd', 'rcp', 'sftp', 'ssh-add', 'ssh-agent', 'ssh-config']
 versions:
   "OpenSSH_7.6p1":
     cmdName: ssh
