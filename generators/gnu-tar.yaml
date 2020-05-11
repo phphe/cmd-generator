@@ -237,13 +237,6 @@ versions:
           en: no-seek
         description:
           en: archive is not seekable
-      extract:
-        long: "--extract"
-        name:
-          en: extract
-        description:
-          en: or --list and when a list of files is given either on the command line or
-            via the -T option; NUMBER defaults to 1
       sparse-version:
         long: "--sparse-version"
         name:

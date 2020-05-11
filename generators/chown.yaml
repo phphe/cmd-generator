@@ -15,9 +15,10 @@ versions:
         long: '--changes'
         name:
           en: changes
-          zh-CN: "有更改才输出"
+          zh-CN: 有更改才输出
         description:
           en: like verbose but report only when a change is made
+          zh-CN: 和verbose一样，但只在更改时才报告。
       silent:
         short: '-f'
         long: '--silent'
@@ -26,6 +27,7 @@ versions:
           zh-CN: 静默
         description:
           en: '--quiet  suppress most error messages'
+          zh-CN: 不显示大多数错误信息
       verbose:
         short: '-v'
         long: '--verbose'
@@ -59,6 +61,9 @@ versions:
             change the owner and/or group of each file only if its current owner
             and/or group match those specified here.  Either may be omitted, in
             which case a match is not required for the omitted attribute
+          zh-CN: >-
+            更改每个文件的所有者和/或组，只有当它的当前所有者和/或组与这里指定的属性相匹配时，才会改变它的所有者和/或组。
+            可以省略其中一个，在这种情况下，不需要对省略的属性进行匹配。
         value:
           en: 'CURRENT_OWNER:CURRENT_GROUP'
       no-preserve-root:
@@ -77,10 +82,12 @@ versions:
         long: '--reference'
         name:
           en: reference
+          zh-CN: 参考
         description:
           en: >-
             use RFILE's owner and group rather than specifying OWNER:GROUP
             values
+          zh-CN: '使用RFILE的所有者和组，而不是指定OWNER:GROUP的值'
         value:
           en: RFILE
       recursive:
@@ -88,44 +95,58 @@ versions:
         long: '--recursive'
         name:
           en: recursive
-          zh-CN: "递归"
+          zh-CN: 递归
         description:
           en: operate on files and directories recursively
+          zh-CN: 递归操作文件和目录
       file:
         name:
           en: file
           zh-CN: 文件
         value:
-          en: "path or pattern"
-          zh-CN: "路径或正则"
+          en: path or pattern
+          zh-CN: 路径或正则
         multiple: true
-      "[OWNER][:[GROUP]]":
+      '[OWNER][:[GROUP]]':
         name:
-          en: "[OWNER][:[GROUP]]"
-          zh-CN: "[拥有者][:[用户组]]"
+          en: '[OWNER][:[GROUP]]'
+          zh-CN: '[拥有者][:[用户组]]'
         value:
-          en: ['owner', 'group']
-          zh-CN: ['拥有者', '用户组']
+          en:
+            - owner
+            - group
+          zh-CN:
+            - 拥有者
+            - 用户组
         valueControls:
-          - type: "string"
-          - type: "string"
+          - type: string
+          - type: string
         noQuotes: true
-        getValue: "(value) => {
-          var r = [];
-          if (value[0]) {r.push(value[0])}
-          if (value[1]) {r.push(':', value[1])}
-          return r.join('')
-        }"
+        getValue: >-
+          (value) => { var r = []; if (value[0]) {r.push(value[0])} if
+          (value[1]) {r.push(':', value[1])} return r.join('') }
     usages:
       - name:
           en: Regular
           zh-CN: 常规
         steps:
-        - items: ["changes", "recursive"]
-          optional: true
-          multiple: true
-        - items: ["silent","verbose","dereference","no-dereference","from","no-preserve-root","preserve-root","reference"]
-          optional: true
-          multiple: true
-        - items: ["[OWNER][:[GROUP]]"]
-        - items: ["file"]
+          - items:
+              - changes
+              - recursive
+            optional: true
+            multiple: true
+          - items:
+              - silent
+              - verbose
+              - dereference
+              - no-dereference
+              - from
+              - no-preserve-root
+              - preserve-root
+              - reference
+            optional: true
+            multiple: true
+          - items:
+              - '[OWNER][:[GROUP]]'
+          - items:
+              - file

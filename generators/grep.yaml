@@ -91,7 +91,7 @@ versions:
           en: pattern
         value:
           en: "pattern"
-      file:
+      searched_file:
         name:
           en: file
         value:
@@ -106,4 +106,4 @@ versions:
             multiple: true
             optional: true
           - items: ['pattern']
-          - items: ['file']
+          - items: ['searched_file']

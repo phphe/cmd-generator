@@ -1,6 +1,9 @@
 name: df
 description:
-  en: 'Show information about the file system on which each FILE resides, or all file systems by default.'
+  en: >-
+    Show information about the file system on which each FILE resides, or all
+    file systems by default.
+  zh-CN: 显示每个FILE所在的文件系统的信息，或者默认情况下显示所有的文件系统。
 versions:
   '8.28':
     cmdName: df
@@ -16,6 +19,7 @@ versions:
           zh-CN: 所有
         description:
           en: 'include pseudo, duplicate, inaccessible file systems'
+          zh-CN: 包括伪文件系统、重复文件系统、无法访问的文件系统。
       block-size:
         short: '-B'
         long: '--block-size'
@@ -24,7 +28,23 @@ versions:
         description:
           en: scale sizes by SIZE before printing them
         value: true
-        allowedValues: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB', 'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']
+        allowedValues:
+          - KB
+          - MB
+          - GB
+          - TB
+          - PB
+          - EB
+          - ZB
+          - YB
+          - K
+          - M
+          - G
+          - T
+          - P
+          - E
+          - Z
+          - 'Y'
         noQuotes: true
       human-readable:
         short: '-h'
@@ -34,41 +54,52 @@ versions:
           zh-CN: 易读的
         description:
           en: 'print sizes in powers of 1024 (e.g., 1023M)'
-      "1k=1000":
+          zh-CN: 以1024为进制
+      1k=1000:
         short: '-H'
         long: '--si'
         name:
-          en: "1k=1000"
+          en: 1k=1000
+          zh-CN: 1k=1000
         description:
           en: 'print sizes in powers of 1000 (e.g., 1.1G)'
+          zh-CN: 以1000为进制
       inodes:
         short: '-i'
         long: '--inodes'
         name:
           en: inodes
+          zh-CN: 节点
         description:
           en: list inode information instead of block usage
+          zh-CN: 列出节点信息，而不是块的使用情况
       local:
         short: '-l'
         long: '--local'
         name:
           en: local
+          zh-CN: 本地
         description:
           en: limit listing to local file systems
+          zh-CN: 只限于本地文件系统
       no-sync:
         long: '--no-sync'
         name:
           en: no-sync
+          zh-CN: 不同步
         description:
           en: do not invoke sync before getting usage info (default)
+          zh-CN: 在获取使用信息之前不调用同步（默认情况下）。
       output:
         long: '--output'
         name:
           en: output
+          zh-CN: 输出
         description:
           en: >-
-            use the output format defined by FIELD_LIST, or print
-            all fields if FIELD_LIST is omitted.
+            use the output format defined by FIELD_LIST, or print all fields if
+            FIELD_LIST is omitted.
+          zh-CN: 使用FIELD_LIST定义的输出格式，如果省略了FIELD_LIST，则打印所有字段。
         value: FIELD_LIST
       portability:
         short: '-P'
@@ -77,12 +108,15 @@ versions:
           en: portability
         description:
           en: use the POSIX output format
+          zh-CN: 使用POSIX输出格式
       sync:
         long: '--sync'
         name:
           en: sync
+          zh-CN: 同步
         description:
           en: invoke sync before getting usage info
+          zh-CN: 在获取使用信息前调用同步
       total:
         long: '--total'
         name:
@@ -96,8 +130,10 @@ versions:
         long: '--type'
         name:
           en: type
+          zh-CN: 类型
         description:
           en: limit listing to file systems of type TYPE
+          zh-CN: 只限于类型为TYPE的文件系统
         value:
           en: TYPE
       print-type:
@@ -105,48 +141,75 @@ versions:
         long: '--print-type'
         name:
           en: print-type
+          zh-CN: 打印类型
         description:
           en: print file system type
+          zh-CN: 打印文件系统类型
       exclude-type:
         short: '-x'
         long: '--exclude-type'
         name:
           en: exclude-type
+          zh-CN: 排除类型
         description:
           en: limit listing to file systems not of type TYPE
+          zh-CN: 只限于非TYPE类型的文件系统
         value:
           en: TYPE
       help:
         long: '--help'
         name:
           en: help
+          zh-CN: 帮助
         description:
           en: display this help and exit
       version:
         long: '--version'
         name:
           en: version
+          zh-CN: 版本
         description:
           en: output version information and exit
+          zh-CN: 输出版本信息并退出
       '-k':
         short: '-k'
         name:
           en: like --block-size=1K
+          zh-CN: 如 --block-size=1K
       file:
         name:
           en: file
+          zh-CN: 文件
         value:
-          en: "path or pattern"
+          en: path or pattern
         multiple: true
     usages:
       - name:
           en: Regular
           zh-CN: 常规
         steps:
-          - items: ["human-readable", "1k=1000", "all"]
+          - items:
+              - human-readable
+              - 1k=1000
+              - all
             optional: true
             multiple: true
-          - items: ["block-size","inodes","local","no-sync","output","portability","sync","total","type","print-type","exclude-type","help","version", "-k"]
+          - items:
+              - block-size
+              - inodes
+              - local
+              - no-sync
+              - output
+              - portability
+              - sync
+              - total
+              - type
+              - print-type
+              - exclude-type
+              - help
+              - version
+              - '-k'
             optional: true
             multiple: true
-          - items: ['file']
+          - items:
+              - file

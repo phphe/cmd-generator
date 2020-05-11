@@ -1,161 +1,170 @@
----
-  name: "chmod"
-  description: |-
+name: chmod
+description:
+  en: |-
     Change the mode of each FILE to MODE.
     With --reference, change the mode of each FILE to that of RFILE.
-  versions: 
-    "8.28": 
-      cmdName: "chmod"
-      contributors: 
-        - 
-          name: "phphe"
-          url: "https://github.com/phphe"
-      options: 
-        changes: 
-          short: "-c"
-          long: "--changes"
-          name: 
-            en: "changes"
-            zh-CN: "有更改才输出"
-          description: 
-            en: "like verbose but report only when a change is made"
-        silent: 
-          short: "-f"
-          long: "--silent"
-          name: 
-            en: "silent"
-            zh-CN: "静默"
-          description: 
-            en: "--quiet  suppress most error messages"
-        verbose: 
-          short: "-v"
-          long: "--verbose"
-          name: 
-            en: "verbose"
-            zh-CN: "显示详情"
-          description: 
-            en: "output a diagnostic for every file processed"
-        no-preserve-root: 
-          long: "--no-preserve-root"
-          name: 
-            en: "no-preserve-root"
-          description: 
-            en: "do not treat '/' specially (the default)"
-        preserve-root: 
-          long: "--preserve-root"
-          name: 
-            en: "preserve-root"
-          description: 
-            en: "fail to operate recursively on '/'"
-        reference: 
-          long: "--reference"
-          name: 
-            en: "reference"
-          description: 
-            en: "use RFILE's mode instead of MODE values"
-          value: 
-            en: "RFILE"
-        recursive: 
-          short: "-R"
-          long: "--recursive"
-          name: 
-            en: "recursive"
-            zh-CN: "递归"
-          description: 
-            en: "change files and directories recursively"
-        help: 
-          long: "--help"
-          name: 
-            en: "help"
-          description: 
-            en: "display this help and exit"
-        version: 
-          long: "--version"
-          name: 
-            en: "version"
-          description: 
-            en: "output version information and exit"
-        file:
-          name:
-            en: file
-            zh-CN: 文件
-          value:
-            en: "path"
-          multiple: true
-        "OCTAL-MODE":
-          name: "OCTAL-MODE"
-          value: true
-          noQuotes: true
-          valueControls:
-            - type: select
-              items:
-                -
-                  value: 'u'
-                  name:
-                    en: file owner
-                    zh-CN: 文件拥有者
-                -
-                  value: 'g'
-                  name:
-                    en: members of the file's group
-                    zh-CN: 文件群组用户
-                -
-                  value: 'o'
-                  name:
-                    en: other users
-                    zh-CN: 其他用户
-                -
-                  value: 'a'
-                  name:
-                    en: all users
-                    zh-CN: 所有用户
-            - type: select
-              items:
-                -
-                  value: '+'
-                  name:
-                    en: add
-                    zh-CN: 增加
-                -
-                  value: '-'
-                  name:
-                    en: remove
-                    zh-CN: 删除
-                -
-                  value: '='
-                  name:
-                    en: assign
-                    zh-CN: 指定
-            - type: select
-              multiple: true
-              items:
-              -
-                value: r
+versions:
+  '8.28':
+    cmdName: chmod
+    contributors:
+      - name: phphe
+        url: 'https://github.com/phphe'
+    options:
+      changes:
+        short: '-c'
+        long: '--changes'
+        name:
+          en: changes
+          zh-CN: 有更改才输出
+        description:
+          en: like verbose but report only when a change is made
+          zh-CN: 和verbose一样，但只在发生变化时才报告
+      silent:
+        short: '-f'
+        long: '--silent'
+        name:
+          en: silent
+          zh-CN: 静默
+        description:
+          en: '--quiet  suppress most error messages'
+          zh-CN: 不显示大多数错误信息
+      verbose:
+        short: '-v'
+        long: '--verbose'
+        name:
+          en: verbose
+          zh-CN: 显示详情
+        description:
+          en: output a diagnostic for every file processed
+      no-preserve-root:
+        long: '--no-preserve-root'
+        name:
+          en: no-preserve-root
+        description:
+          en: do not treat '/' specially (the default)
+          zh-CN: 不要特别对待'/'
+      preserve-root:
+        long: '--preserve-root'
+        name:
+          en: preserve-root
+        description:
+          en: fail to operate recursively on '/'
+      reference:
+        long: '--reference'
+        name:
+          en: reference
+          zh-CN: 参考
+        description:
+          en: use RFILE's mode instead of MODE values
+          zh-CN: 使用RFILE的模式，而不是MODE值。
+        value:
+          en: RFILE
+      recursive:
+        short: '-R'
+        long: '--recursive'
+        name:
+          en: recursive
+          zh-CN: 递归
+        description:
+          en: change files and directories recursively
+          zh-CN: 递归更改文件和目录
+      help:
+        long: '--help'
+        name:
+          en: help
+          zh-CN: 帮助
+        description:
+          en: display this help and exit
+      version:
+        long: '--version'
+        name:
+          en: version
+          zh-CN: 版本
+        description:
+          en: output version information and exit
+          zh-CN: 输出版本信息并退出
+      file:
+        name:
+          en: file
+          zh-CN: 文件
+        value:
+          en: path
+        multiple: true
+      OCTAL-MODE:
+        name:
+          en: OCTAL-MODE
+          zh-CN: OCTAL-MODE
+        value: true
+        noQuotes: true
+        valueControls:
+          - type: select
+            items:
+              - value: u
+                name:
+                  en: file owner
+                  zh-CN: 文件拥有者
+              - value: g
+                name:
+                  en: members of the file's group
+                  zh-CN: 文件群组用户
+              - value: o
+                name:
+                  en: other users
+                  zh-CN: 其他用户
+              - value: a
+                name:
+                  en: all users
+                  zh-CN: 所有用户
+          - type: select
+            items:
+              - value: +
+                name:
+                  en: add
+                  zh-CN: 增加
+              - value: '-'
+                name:
+                  en: remove
+                  zh-CN: 删除
+              - value: =
+                name:
+                  en: assign
+                  zh-CN: 指定
+          - type: select
+            multiple: true
+            items:
+              - value: r
                 name:
                   en: read
                   zh-CN: 读
-              -
-                value: w
+              - value: w
                 name:
                   en: write
                   zh-CN: 写
-              -
-                value: x
+              - value: x
                 name:
                   en: execute
                   zh-CN: 执行
-
-      usages: 
-        - 
-          name: 
-            en: "Regular"
-            zh-CN: "常规"
-          steps:
-            - items: ["recursive"]
-              optional: true
-              multiple: true
-            - items: ["changes","silent","verbose","no-preserve-root","preserve-root","reference","help","version"]
-              optional: true
-              multiple: true
-            - items: ["OCTAL-MODE"]
-            - items: ["file"]
+    usages:
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - items:
+              - recursive
+            optional: true
+            multiple: true
+          - items:
+              - changes
+              - silent
+              - verbose
+              - no-preserve-root
+              - preserve-root
+              - reference
+              - help
+              - version
+            optional: true
+            multiple: true
+          - items:
+              - OCTAL-MODE
+          - items:
+              - file

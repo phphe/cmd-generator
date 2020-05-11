@@ -321,7 +321,7 @@ versions:
         short: "-l"
         name:
           en: detail
-        name: 
+        description: 
           en: "use a long listing format"
       -m: 
         short: "-m"
