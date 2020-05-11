@@ -83,7 +83,8 @@ versions:
         short: '-h'
         long: '--human'
         name:
-          en: human
+          en: human readable
+          zh-CN: 易读的
         description:
           en: show human-readable output
       "1k=1000":
@@ -103,6 +104,7 @@ versions:
         long: '--total'
         name:
           en: total
+          zh-CN: 全部
         description:
           en: show total for RAM + swap
       wide:
@@ -116,6 +118,7 @@ versions:
         short: '-s'
         name:
           en: 'repeat every seconds'
+          zh-CN: 每几秒刷新
         description:
           en: 'N, --seconds N   repeat printing every N seconds'
         value: 'n'
@@ -123,6 +126,7 @@ versions:
         short: '-c'
         name:
           en: 'repeat times'
+          zh-CN: 刷新几次
         description:
           en: 'N, --count N     repeat printing N times, then exit'
         value: 'n'

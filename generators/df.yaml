@@ -13,6 +13,7 @@ versions:
         long: '--all'
         name:
           en: all
+          zh-CN: 所有
         description:
           en: 'include pseudo, duplicate, inaccessible file systems'
       block-size:
@@ -21,8 +22,7 @@ versions:
         name:
           en: block-size
         description:
-          en: >-
-            scale sizes by SIZE before printing them
+          en: scale sizes by SIZE before printing them
         value: true
         allowedValues: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB', 'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']
         noQuotes: true
@@ -31,6 +31,7 @@ versions:
         long: '--human-readable'
         name:
           en: human-readable
+          zh-CN: 易读的
         description:
           en: 'print sizes in powers of 1024 (e.g., 1023M)'
       "1k=1000":
@@ -141,7 +142,7 @@ versions:
           en: Regular
           zh-CN: 常规
         steps:
-          - items: ["block-size", "human-readable", "1k=1000", "all"]
+          - items: ["human-readable", "1k=1000", "all"]
             optional: true
             multiple: true
           - items: ["block-size","inodes","local","no-sync","output","portability","sync","total","type","print-type","exclude-type","help","version", "-k"]

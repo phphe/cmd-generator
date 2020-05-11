@@ -11,9 +11,11 @@ versions:
         short: "-A"
         long: "--show-all"
         name: 
-          en: "show-all"
+          en: "show all"
+          zh-CN: "显示所有"
         description: 
           en: "equivalent to -vET"
+          zh-CN: "相当于-vET"
       number-nonblank: 
         short: "-b"
         long: "--number-nonblank"
@@ -26,15 +28,19 @@ versions:
         long: "--show-ends"
         name: 
           en: "show-ends"
+          zh-CN: "行尾显示$"
         description: 
           en: "display $ at end of each line"
+          zh-CN: "行尾显示$"
       number: 
         short: "-n"
         long: "--number"
         name: 
           en: "number"
+          zh-CN: "行号"
         description: 
           en: "number all output lines"
+          zh-CN: "显示行号"
       squeeze-blank: 
         short: "-s"
         long: "--squeeze-blank"
@@ -47,8 +53,10 @@ versions:
         long: "--show-tabs"
         name: 
           en: "show-tabs"
+          zh-CN: "显示tabs"
         description: 
           en: "display TAB characters as ^I"
+          zh-CN: "显示TAB字符如^I"
       show-nonprinting: 
         short: "-v"
         long: "--show-nonprinting"

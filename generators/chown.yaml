@@ -15,6 +15,7 @@ versions:
         long: '--changes'
         name:
           en: changes
+          zh-CN: "有更改才输出"
         description:
           en: like verbose but report only when a change is made
       silent:
@@ -22,6 +23,7 @@ versions:
         long: '--silent'
         name:
           en: silent
+          zh-CN: 静默
         description:
           en: '--quiet  suppress most error messages'
       verbose:
@@ -86,13 +88,16 @@ versions:
         long: '--recursive'
         name:
           en: recursive
+          zh-CN: "递归"
         description:
           en: operate on files and directories recursively
       file:
         name:
           en: file
+          zh-CN: 文件
         value:
           en: "path or pattern"
+          zh-CN: "路径或正则"
         multiple: true
       "[OWNER][:[GROUP]]":
         name:

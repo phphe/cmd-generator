@@ -31,6 +31,7 @@ versions:
         long: "--force"
         name: 
           en: "force"
+          zh-CN: "覆盖"
         description: 
           en: "if an existing destination file cannot be opened, remove it and try again (this option is ignored when the -n option is also used)"
       interactive: 
@@ -38,6 +39,7 @@ versions:
         long: "--interactive"
         name: 
           en: "interactive"
+          zh-CN: "交互"
         description: 
           en: "prompt before overwrite (overrides a previous -n option)"
       link: 
@@ -45,6 +47,7 @@ versions:
         long: "--link"
         name: 
           en: "link"
+          zh-CN: "硬链接"
         description: 
           en: "hard link files instead of copying"
       dereference: 
@@ -87,6 +90,7 @@ versions:
         long: "--recursive"
         name: 
           en: "recursive"
+          zh-CN: "递归"
         description: 
           en: "copy directories recursively"
       remove-destination: 
@@ -115,6 +119,7 @@ versions:
         long: "--symbolic-link"
         name: 
           en: "symbolic-link"
+          zh-CN: "符号链接"
         description: 
           en: "make symbolic links instead of copying"
       suffix: 
@@ -147,6 +152,7 @@ versions:
         long: "--update"
         name: 
           en: "update"
+          zh-CN: "仅更新"
         description: 
           en: "copy only when the SOURCE file is newer than the destination file or when the destination file is missing"
       verbose: 
@@ -227,18 +233,23 @@ versions:
       source:
         name:
           en: source
+          zh-CN: "源文件"
         description:
           en: "The source files"
+          zh-CN: "源文件"
         value:
           en: "path or pattern"
+          zh-CN: "路径或正则"
         multiple: true
       dest:
         name:
           en: dest
+          zh-CN: "目标"
         description:
           en: "The target"
         value:
           en: "directory or file path"
+          zh-CN: "目录或文件路径"
     usages:
     - name:
         en: Regular

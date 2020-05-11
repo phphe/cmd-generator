@@ -16,6 +16,7 @@
           long: "--changes"
           name: 
             en: "changes"
+            zh-CN: "有更改才输出"
           description: 
             en: "like verbose but report only when a change is made"
         silent: 
@@ -23,6 +24,7 @@
           long: "--silent"
           name: 
             en: "silent"
+            zh-CN: "静默"
           description: 
             en: "--quiet  suppress most error messages"
         verbose: 
@@ -30,6 +32,7 @@
           long: "--verbose"
           name: 
             en: "verbose"
+            zh-CN: "显示详情"
           description: 
             en: "output a diagnostic for every file processed"
         no-preserve-root: 
@@ -57,6 +60,7 @@
           long: "--recursive"
           name: 
             en: "recursive"
+            zh-CN: "递归"
           description: 
             en: "change files and directories recursively"
         help: 
@@ -74,6 +78,7 @@
         file:
           name:
             en: file
+            zh-CN: 文件
           value:
             en: "path"
           multiple: true
