@@ -67,8 +67,9 @@ versions:
           en: output
         description:
           en: >-
-            [=FIELD_LIST]  use the output format defined by FIELD_LIST, or print
+            use the output format defined by FIELD_LIST, or print
             all fields if FIELD_LIST is omitted.
+        value: FIELD_LIST
       portability:
         short: '-P'
         long: '--portability'
