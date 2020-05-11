@@ -1,7 +1,10 @@
 name: kill
 description:
-  en: 'The kill command sends a signal to specified processes or process groups, causing them to act according to the signal. When the signal is not specified, it defaults to -15 (-TERM).'
-  zh-CN: 'kill命令向指定的进程或进程组发送信号，使其根据信号执行。当没有指定该信号时，它的默认值为-15（-TERM）。'
+  en: >-
+    The kill command sends a signal to specified processes or process groups,
+    causing them to act according to the signal. When the signal is not
+    specified, it defaults to -15 (-TERM).
+  zh-CN: kill命令向指定的进程或进程组发送信号，使其根据信号执行。当没有指定该信号时，它的默认值为-15（-TERM）。
 versions:
   3.3.12:
     cmdName: kill
@@ -20,6 +23,7 @@ versions:
         long: '--list'
         name:
           en: list
+          zh-CN: 列出
         description:
           en: 'list all signal names, or convert one to a name'
         value:
@@ -36,6 +40,7 @@ versions:
         long: '--help'
         name:
           en: help
+          zh-CN: 帮助
         description:
           en: display this help and exit
       version:
@@ -43,8 +48,10 @@ versions:
         long: '--version'
         name:
           en: version
+          zh-CN: 版本
         description:
           en: output version information and exit
+          zh-CN: 输出版本信息并退出
       pid:
         name:
           en: pid
@@ -55,7 +62,13 @@ versions:
           en: Regular
           zh-CN: 常规
         steps:
-          - items: ["signal","list","table","help","version"]
+          - items:
+              - signal
+              - list
+              - table
+              - help
+              - version
             optional: true
             multiple: true
-          - items: ['pid']
+          - items:
+              - pid

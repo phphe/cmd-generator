@@ -1,105 +1,123 @@
 name: which
-description: |-
-  Write the full path of COMMAND(s) to standard output.
+description:
+  en: Write the full path of COMMAND(s) to standard output.
+  zh-CN: 将COMMAND的完整路径写入标准输出。
 versions:
-  "2.21":
+  '2.21':
     cmdName: which
     contributors:
-    - name: phphe
-      url: https://github.com/phphe
+      - name: phphe
+        url: 'https://github.com/phphe'
     options:
-      version: 
-        long: "--version"
-        short: "-v"
-        name: 
-          en: "version"
-        description: 
-          en: "Print version and exit successfully."
-      help: 
-        long: "--help"
-        name: 
-          en: "help"
-        description: 
-          en: ",          Print this help and exit successfully."
-      skip-dot: 
-        long: "--skip-dot"
-        name: 
-          en: "skip-dot"
-        description: 
-          en: "Skip directories in PATH that start with a dot."
-      skip-tilde: 
-        long: "--skip-tilde"
-        name: 
-          en: "skip-tilde"
-        description: 
-          en: "Skip directories in PATH that start with a tilde."
-      show-dot: 
-        long: "--show-dot"
-        name: 
-          en: "show-dot"
-        description: 
-          en: "Don't expand a dot to current directory in output."
-      show-tilde: 
-        long: "--show-tilde"
-        name: 
-          en: "show-tilde"
-        description: 
-          en: "Output a tilde for HOME directory for non-root."
-      tty-only: 
-        long: "--tty-only"
-        name: 
-          en: "tty-only"
-        description: 
-          en: "Stop processing options on the right if not on tty."
-      all: 
-        short: "-a"
-        long: "--all"
-        name: 
-          en: "all"
-        description: 
-          en: "-a        Print all matches in PATH, not just the first"
-      read-alias: 
-        short: "-i"
-        long: "--read-alias"
-        name: 
-          en: "read-alias"
-        description: 
-          en: "-i Read list of aliases from stdin."
-      skip-alias: 
-        long: "--skip-alias"
-        name: 
-          en: "skip-alias"
-        description: 
-          en: "Ignore option --read-alias; don't read stdin."
-      read-functions: 
-        long: "--read-functions"
-        name: 
-          en: "read-functions"
-        description: 
-          en: "Read shell functions from stdin."
-      skip-functions: 
-        long: "--skip-functions"
-        name: 
-          en: "skip-functions"
-        description: 
-          en: "Ignore option --read-functions; don't read stdin."
+      version:
+        long: '--version'
+        short: '-v'
+        name:
+          en: version
+          zh-CN: 版本
+        description:
+          en: Print version and exit successfully.
+      help:
+        long: '--help'
+        name:
+          en: help
+          zh-CN: 帮助
+        description:
+          en: 'Print this help and exit successfully.'
+      skip-dot:
+        long: '--skip-dot'
+        name:
+          en: skip-dot
+        description:
+          en: Skip directories in PATH that start with a dot.
+      skip-tilde:
+        long: '--skip-tilde'
+        name:
+          en: skip-tilde
+        description:
+          en: Skip directories in PATH that start with a tilde.
+      show-dot:
+        long: '--show-dot'
+        name:
+          en: show-dot
+        description:
+          en: Don't expand a dot to current directory in output.
+      show-tilde:
+        long: '--show-tilde'
+        name:
+          en: show-tilde
+        description:
+          en: Output a tilde for HOME directory for non-root.
+      tty-only:
+        long: '--tty-only'
+        name:
+          en: tty-only
+        description:
+          en: Stop processing options on the right if not on tty.
+      all:
+        short: '-a'
+        long: '--all'
+        name:
+          en: all
+          zh-CN: 全部
+        description:
+          en: '-a        Print all matches in PATH, not just the first'
+      read-alias:
+        short: '-i'
+        long: '--read-alias'
+        name:
+          en: read-alias
+        description:
+          en: '-i Read list of aliases from stdin.'
+      skip-alias:
+        long: '--skip-alias'
+        name:
+          en: skip-alias
+        description:
+          en: Ignore option --read-alias; don't read stdin.
+      read-functions:
+        long: '--read-functions'
+        name:
+          en: read-functions
+        description:
+          en: Read shell functions from stdin.
+      skip-functions:
+        long: '--skip-functions'
+        name:
+          en: skip-functions
+        description:
+          en: Ignore option --read-functions; don't read stdin.
       command:
         name:
-          en: "command"
+          en: command
+          zh-CN: 命令
         description:
-          en: "The command to search"
+          en: The command to search
+          zh-CN: 要搜索的命令
         value:
-          en: "name"
+          en: name
     usages:
-    - name:
-        en: Regular
-        zh-CN: 常规
-      steps:
-        - optional: true
-          multiple: true
-          items: ["all","read-alias", "skip-alias"]
-        - optional: true
-          multiple: true
-          items: ["version","help","skip-dot","skip-tilde","show-dot","show-tilde","tty-only","read-functions","skip-functions"]
-        - items:
-          - command
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - optional: true
+            multiple: true
+            items:
+              - all
+              - read-alias
+              - skip-alias
+          - optional: true
+            multiple: true
+            items:
+              - version
+              - help
+              - skip-dot
+              - skip-tilde
+              - show-dot
+              - show-tilde
+              - tty-only
+              - read-functions
+              - skip-functions
+          - items:
+              - command

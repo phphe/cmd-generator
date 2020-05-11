@@ -1,39 +1,80 @@
 name: ssh
-description: 'Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Typical applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH.'
-related: ['ssh-keygen', 'ssh-copy-id', 'scp', 'sshd', 'rcp', 'sftp', 'ssh-add', 'ssh-agent', 'ssh-config']
+description:
+  en: >-
+    Secure Shell (SSH) is a cryptographic network protocol for operating network
+    services securely over an unsecured network.[1] Typical applications include
+    remote command-line, login, and remote command execution, but any network
+    service can be secured with SSH.
+  zh-CN: >-
+    SSH（Secure
+    Shell）是一种加密的网络协议，用于在不安全的网络上安全地操作网络服务，[1]典型的应用包括远程命令行、登录、远程命令执行等，但任何网络服务都可以用SSH来安全地执行。
+related:
+  - ssh-keygen
+  - ssh-copy-id
+  - scp
+  - sshd
+  - rcp
+  - sftp
+  - ssh-add
+  - ssh-agent
+  - ssh-config
 versions:
-  "OpenSSH_7.6p1":
+  OpenSSH_7.6p1:
     cmdName: ssh
     contributors:
-    - name: phphe
-      url: https://github.com/phphe
+      - name: phphe
+        url: 'https://github.com/phphe'
     options:
-      "ssh_server":
+      ssh_server:
         name:
           en: ssh server
           zh-CN: ssh服务器
         description:
-          en: ssh server login user and address. user can be empty if local user is same with remote.
+          en: >-
+            ssh server login user and address. user can be empty if local user
+            is same with remote.
           zh-CN: ssh服务器登录用户和地址. 如果本地用户名与远程用户名一致，登录时可以省略用户名。
         value:
-          en: ['user', '@', 'host']
-          zh-CN: ['用户', '@', '主机']
+          en:
+            - user
+            - '@'
+            - host
+          zh-CN:
+            - 用户
+            - '@'
+            - 主机
         valueControls:
           - type: string
           - type: specified_string
             value: '@'
           - type: string
-        getValue: "value => value[0] ? value.join('') : value[2]"
+        getValue: 'value => value[0] ? value.join('''') : value[2]'
         noQuotes: true
       identity_file:
-        short: "-i"
-        name: identity file
+        short: '-i'
+        name:
+          en: identity file
+          zh-CN: 身份文件
         description:
-          en: Selects a file from which the identity (private key) for RSA or DSA authentication is read. The default is ~/.ssh/identity for protocol version 1, and ~/.ssh/id_rsa and ~/.ssh/id_dsa for protocol version 2. Identity files may also be specified on a per-host basis in the configuration file. It is possible to have multiple -i options (and multiple identities specified in configuration files).
-        value: 'path'
+          en: >-
+            Selects a file from which the identity (private key) for RSA or DSA
+            authentication is read. The default is ~/.ssh/identity for protocol
+            version 1, and ~/.ssh/id_rsa and ~/.ssh/id_dsa for protocol version
+            2. Identity files may also be specified on a per-host basis in the
+            configuration file. It is possible to have multiple -i options (and
+            multiple identities specified in configuration files).
+          zh-CN: >-
+            选择用于RSA或DSA认证的身份（私钥）文件。对于协议版本1，默认为 ~/.ssh/identity，对于协议版本2，默认为
+            ~/.ssh/id_rsa 和 ~/.ssh/id_dsa。身份文件也可以在配置文件中以每个主机为单位指定。可以有多个 -i
+            选项（也可以在配置文件中指定多个身份文件）。
+        value:
+          en: path
+          zh-CN: 路径
       port:
         short: '-p'
-        name: port
+        name:
+          en: port
+          zh-CN: 端口
         description:
           en: default 22
           zh-CN: 默认22
@@ -41,7 +82,9 @@ versions:
         noQuotes: true
       port_df:
         short: '-D'
-        name: Dynamic forwarding port
+        name:
+          en: Dynamic forwarding port
+          zh-CN: 动态转发端口
         description:
           en: socks proxy proxy port
           zh-CN: socks代理端口
@@ -50,51 +93,75 @@ versions:
       '-N':
         short: '-N'
         name:
-          en: 'Do not execute a remote command. This is useful for just forwarding ports (protocol version 2 only).'
-          zh-CN: '只连接远程主机，不打开远程shell'
+          en: >-
+            Do not execute a remote command. This is useful for just forwarding
+            ports (protocol version 2 only).
+          zh-CN: 只连接远程主机，不打开远程shell
       '-T':
         short: '-T'
         name:
-          en: 'Disable pseudo-tty allocation.'
-          zh-CN: '不为这个连接分配TTY'
+          en: Disable pseudo-tty allocation.
+          zh-CN: 不为这个连接分配TTY
       background:
         short: '-f'
         name:
-          en: 'Requests ssh to go to background just before command execution.'
-          zh-CN: 'SSH连接成功后，转入后台运行. 之后只能用kill命令去杀掉进程.'
-      "2_hosts_lf":
+          en: Requests ssh to go to background just before command execution.
+          zh-CN: SSH连接成功后，转入后台运行. 之后只能用kill命令去杀掉进程.
+      2_hosts_lf:
         noQuotes: true
         short: '-L'
         name:
-          en: "2 hosts"
-          zh-CN: "两台主机"
+          en: 2 hosts
+          zh-CN: 两台主机
         description:
-          en: "Access ssh server's port by accessing the local port."
-          zh-CN: "通过访问本机端口来访问ssh服务器的端口."
+          en: Access ssh server's port by accessing the local port.
+          zh-CN: 通过访问本机端口来访问ssh服务器的端口.
         value:
-          en: ['local port', ':', '127.0.0.1', ':', 'target port']
-          zh-CN: ['本机端口', ':', '127.0.0.1', ':', '目标端口']
+          en:
+            - local port
+            - ':'
+            - 127.0.0.1
+            - ':'
+            - target port
+          zh-CN:
+            - 本机端口
+            - ':'
+            - 127.0.0.1
+            - ':'
+            - 目标端口
         valueControls:
           - type: string
           - type: specified_string
             value: ':'
           - type: specified_string
-            value: '127.0.0.1'
+            value: 127.0.0.1
           - type: specified_string
             value: ':'
           - type: string
-      "3_hosts_lf":
+      3_hosts_lf:
         noQuotes: true
         short: '-L'
         name:
-          en: "3 hosts"
-          zh-CN: "3台主机"
+          en: 3 hosts
+          zh-CN: 3台主机
         description:
-          en: "Access the port of the third server by accessing the local port. The third server's port must be accessible to the ssh server."
-          zh-CN: "通过访问本机端口来访问第三台服务器的端口. 第三台服务器的端口必须是ssh服务器能访问到的."
+          en: >-
+            Access the port of the third server by accessing the local port. The
+            third server's port must be accessible to the ssh server.
+          zh-CN: 通过访问本机端口来访问第三台服务器的端口. 第三台服务器的端口必须是ssh服务器能访问到的.
         value:
-          en: ['local port', ':', 'target host', ':', 'target port']
-          zh-CN: ['本机端口', ':', '目标主机', ':', '目标端口']
+          en:
+            - local port
+            - ':'
+            - target host
+            - ':'
+            - target port
+          zh-CN:
+            - 本机端口
+            - ':'
+            - 目标主机
+            - ':'
+            - 目标端口
         valueControls:
           - type: string
           - type: specified_string
@@ -103,39 +170,61 @@ versions:
           - type: specified_string
             value: ':'
           - type: string
-      "2_hosts_rf":
+      2_hosts_rf:
         noQuotes: true
         short: '-R'
         name:
-          en: "2 hosts"
-          zh-CN: "两台主机"
+          en: 2 hosts
+          zh-CN: 两台主机
         description:
-          en: "Example: access: ssh server:81, actual access: localhost:80"
-          zh-CN: "例: 访问: ssh服务器:81, 实际访问: localhost:80"
+          en: 'Example: access: ssh server:81, actual access: localhost:80'
+          zh-CN: '例: 访问: ssh服务器:81, 实际访问: localhost:80'
         value:
-          en: ['ssh server port', ':', '127.0.0.1', ':', 'local port']
-          zh-CN: ['ssh主机端口', ':', '127.0.0.1', ':', '本机端口']
+          en:
+            - ssh server port
+            - ':'
+            - 127.0.0.1
+            - ':'
+            - local port
+          zh-CN:
+            - ssh主机端口
+            - ':'
+            - 127.0.0.1
+            - ':'
+            - 本机端口
         valueControls:
           - type: string
           - type: specified_string
             value: ':'
           - type: specified_string
-            value: '127.0.0.1'
+            value: 127.0.0.1
           - type: specified_string
             value: ':'
           - type: string
-      "3_hosts_rf":
+      3_hosts_rf:
         noQuotes: true
         short: '-R'
         name:
-          en: "3 hosts"
-          zh-CN: "3台主机"
+          en: 3 hosts
+          zh-CN: 3台主机
         description:
-          en: "Example: access: ssh server:81, actual access: third host:80. The third host must be locally accessible."
-          zh-CN: "例: 访问: ssh服务器:81, 实际访问: 第三台主机:80. 第三台主机必须是本机可访问的."
+          en: >-
+            Example: access: ssh server:81, actual access: third host:80. The
+            third host must be locally accessible.
+          zh-CN: '例: 访问: ssh服务器:81, 实际访问: 第三台主机:80. 第三台主机必须是本机可访问的.'
         value:
-          en: ['ssh server port', ':', 'third host', ':', 'third host port']
-          zh-CN: ['ssh主机端口', ':', '第三台主机', ':', '第三台主机端口']
+          en:
+            - ssh server port
+            - ':'
+            - third host
+            - ':'
+            - third host port
+          zh-CN:
+            - ssh主机端口
+            - ':'
+            - 第三台主机
+            - ':'
+            - 第三台主机端口
         valueControls:
           - type: string
           - type: specified_string
@@ -145,73 +234,81 @@ versions:
             value: ':'
           - type: string
     usages:
-    - name:
-        en: Login
-        zh-CN: 远程登录
-      steps:
-      - optional: true
-        multiple: true
-        items:
-        - port
-        - identity_file
-        - "-N"
-        - "-T"
-        - background
-      - items:
-        - "ssh_server"
-    - name:
-        en: Local forwarding
-        zh-CN: 本地端口转发
-      description:
-        en: "Access the local port allows you to access the port of another host. Example: access localhost:8080, actual access: remotehost:80"
-        zh-CN: "访问本机端口可以访问另一台机器的端口. 例: 访问localhost:8080, 实际访问: 远程主机:80"
-      steps:
-      - optional: true
-        multiple: true
-        items:
-        - port
-        - identity_file
-        - "-N"
-        - "-T"
-        - background
-      - items:
-        - "2_hosts_lf"
-        - "3_hosts_lf"
-      - items:
-        - "ssh_server"
-    - name:
-        en: Remote forwarding
-        zh-CN: 远程端口转发
-      description:
-        en: "A request forwarded to the ssh server is sent to the localhost or to another host that can access it locally. Example: access: ssh server:81, actual access: localhost:80."
-        zh-CN: "转发到ssh服务器的请求到本机或本机能访问的其他主机. 例: 访问: ssh服务器:81, 实际访问: localhost:80."
-      steps:
-      - optional: true
-        multiple: true
-        items:
-        - port
-        - identity_file
-        - "-N"
-        - "-T"
-        - background
-      - items:
-        - "2_hosts_rf"
-        - "3_hosts_rf"
-      - items:
-        - "ssh_server"
-    - name:
-        en: Dynamic Port Forwarding
-        zh-CN: 动态端口转发
-      description:
-        en: "The local machine binds a port A. Configure a socks proxy to: local:port A. All traffic to the socks proxy will be sent to the ssh server."
-        zh-CN: "本机绑定一个端口A. 配置socks代理到: 本机:端口A. socks代理的流量都将发送到ssh服务器."
-      steps:
-      - optional: true
-        multiple: true
-        items:
-        - port
-        - identity_file
-      - items:
-        - "port_df"
-      - items:
-        - "ssh_server"
+      - name:
+          en: Login
+          zh-CN: 远程登录
+        steps:
+          - optional: true
+            multiple: true
+            items:
+              - port
+              - identity_file
+              - '-N'
+              - '-T'
+              - background
+          - items:
+              - ssh_server
+      - name:
+          en: Local forwarding
+          zh-CN: 本地端口转发
+        description:
+          en: >-
+            Access the local port allows you to access the port of another host.
+            Example: access localhost:8080, actual access: remotehost:80
+          zh-CN: '访问本机端口可以访问另一台机器的端口. 例: 访问localhost:8080, 实际访问: 远程主机:80'
+        steps:
+          - optional: true
+            multiple: true
+            items:
+              - port
+              - identity_file
+              - '-N'
+              - '-T'
+              - background
+          - items:
+              - 2_hosts_lf
+              - 3_hosts_lf
+          - items:
+              - ssh_server
+      - name:
+          en: Remote forwarding
+          zh-CN: 远程端口转发
+        description:
+          en: >-
+            A request forwarded to the ssh server is sent to the localhost or to
+            another host that can access it locally. Example: access: ssh
+            server:81, actual access: localhost:80.
+          zh-CN: '转发到ssh服务器的请求到本机或本机能访问的其他主机. 例: 访问: ssh服务器:81, 实际访问: localhost:80.'
+        steps:
+          - optional: true
+            multiple: true
+            items:
+              - port
+              - identity_file
+              - '-N'
+              - '-T'
+              - background
+          - items:
+              - 2_hosts_rf
+              - 3_hosts_rf
+          - items:
+              - ssh_server
+      - name:
+          en: Dynamic Port Forwarding
+          zh-CN: 动态端口转发
+        description:
+          en: >-
+            The local machine binds a port A. Configure a socks proxy to:
+            local:port A. All traffic to the socks proxy will be sent to the ssh
+            server.
+          zh-CN: '本机绑定一个端口A. 配置socks代理到: 本机:端口A. socks代理的流量都将发送到ssh服务器.'
+        steps:
+          - optional: true
+            multiple: true
+            items:
+              - port
+              - identity_file
+          - items:
+              - port_df
+          - items:
+              - ssh_server

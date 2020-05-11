@@ -1,6 +1,6 @@
 name: locate
 description:
-  en: 'mlocate. Search for entries in a mlocate database.'
+  en: mlocate. Search for entries in a mlocate database.
 versions:
   '0.26':
     cmdName: locate
@@ -13,8 +13,10 @@ versions:
         long: '--all'
         name:
           en: all
+          zh-CN: 所有
         description:
           en: only print entries that match all patterns
+          zh-CN: 只打印符合所有模式的条目
       basename:
         short: '-b'
         long: '--basename'
@@ -27,6 +29,7 @@ versions:
         long: '--count'
         name:
           en: count
+          zh-CN: 计数
         description:
           en: only print number of found entries
       database:
@@ -34,6 +37,7 @@ versions:
         long: '--database'
         name:
           en: database
+          zh-CN: 数据库
         description:
           en: >-
             DBPATH  use DBPATH instead of default database (which is
@@ -43,6 +47,7 @@ versions:
         long: '--existing'
         name:
           en: existing
+          zh-CN: 存在的
         description:
           en: only print entries for currently existing files
       follow:
@@ -59,6 +64,7 @@ versions:
         long: '--help'
         name:
           en: help
+          zh-CN: 帮助
         description:
           en: print this help
       ignore-case:
@@ -66,13 +72,16 @@ versions:
         long: '--ignore-case'
         name:
           en: ignore-case
+          zh-CN: 忽略大小写
         description:
           en: ignore case distinctions when matching patterns
+          zh-CN: 匹配模式时忽略了大小写的区别
       ignore-spaces:
         short: '-p'
         long: '--ignore-spaces'
         name:
           en: ignore-spaces
+          zh-CN: 忽略空格
         description:
           en: ignore punctuation and spaces when matching patterns
       transliterate:
@@ -87,8 +96,10 @@ versions:
         long: '--limit'
         name:
           en: limit
+          zh-CN: 限制
         description:
-          en: 'limit output (or counting) to LIMIT entries'
+          en: limit output (or counting) to LIMIT entries
+          zh-CN: 限定输出量
         value: 'n'
       mmap:
         short: '-m'
@@ -118,6 +129,7 @@ versions:
         long: '--statistics'
         name:
           en: statistics
+          zh-CN: 统计
         description:
           en: 'don''t search for entries, print statistics about each used database'
       quiet:
@@ -125,6 +137,7 @@ versions:
         long: '--quiet'
         name:
           en: quiet
+          zh-CN: 静默
         description:
           en: report no error messages about reading databases
       regexp:
@@ -152,6 +165,7 @@ versions:
         long: '--version'
         name:
           en: version
+          zh-CN: 版本
         description:
           en: print version information
       wholename:
@@ -161,6 +175,7 @@ versions:
           en: wholename
         description:
           en: match whole path name (default)
+          zh-CN: 匹配全路径名
       pattern:
         name:
           en: pattern
@@ -171,5 +186,27 @@ versions:
           en: Regular
           zh-CN: 常规
         steps:
-          - items: ["all","basename","count","database","existing","follow","help","ignore-case","ignore-spaces","transliterate","limit","mmap","nofollow","null","statistics","quiet","regexp","regex","stdio","version","wholename"]
-          - items: ['pattern']
+          - items:
+              - all
+              - basename
+              - count
+              - database
+              - existing
+              - follow
+              - help
+              - ignore-case
+              - ignore-spaces
+              - transliterate
+              - limit
+              - mmap
+              - nofollow
+              - 'null'
+              - statistics
+              - quiet
+              - regexp
+              - regex
+              - stdio
+              - version
+              - wholename
+          - items:
+              - pattern

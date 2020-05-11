@@ -1,6 +1,9 @@
 name: wc
 description:
-  en: 'Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.  A word is a non-zero-length sequence of characters delimited by white space.'
+  en: >-
+    Print newline, word, and byte counts for each FILE, and a total line if more
+    than one FILE is specified.  A word is a non-zero-length sequence of
+    characters delimited by white space.
 versions:
   '8.28':
     cmdName: wc
@@ -45,6 +48,7 @@ versions:
         long: '--max-line-length'
         name:
           en: max-line-length
+          zh-CN: 最大行长
         description:
           en: print the maximum display width
       words:
@@ -58,20 +62,31 @@ versions:
         long: '--help'
         name:
           en: help
+          zh-CN: 帮助
         description:
           en: display this help and exit
       version:
         long: '--version'
         name:
           en: version
+          zh-CN: 版本
         description:
           en: output version information and exit
+          zh-CN: 输出版本信息并退出
     usages:
       - name:
           en: Regular
           zh-CN: 常规
         steps:
-          - items: ["bytes","chars","lines","max-line-length","words","help","version"]
+          - items:
+              - bytes
+              - chars
+              - lines
+              - max-line-length
+              - words
+              - help
+              - version
             optional: true
             multiple: true
-          - items: ['files0-from']
+          - items:
+              - files0-from

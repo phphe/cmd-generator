@@ -1,9 +1,17 @@
 name: ln
 description:
-  en: |-
+  en: >-
     Create hard links by default, symbolic links with --symbolic.
+
     By default, each destination (name of new link) should not already exist.
-    When creating hard links, each TARGET must exist.  Symbolic links can hold arbitrary text; if later resolved, a relative link is nterpreted in relation to its parent directory.
+
+    When creating hard links, each TARGET must exist.  Symbolic links can hold
+    arbitrary text; if later resolved, a relative link is nterpreted in relation
+    to its parent directory.
+  zh-CN: |-
+    默认情况下创建硬链接，用 --smbolyic 创建符号链接。
+    默认情况下，每个目标（新链接的名称）不应该已经存在。
+    [x] 在创建硬链接时，每个target必须存在。 符号链接可以持有任意的文本；如果以后解决，相对链接会被解释为与其父目录的关系。
 versions:
   '8.28':
     cmdName: ln
@@ -15,31 +23,39 @@ versions:
         long: '--backup'
         name:
           en: backup
+          zh-CN: 备份
         description:
           en: '[=CONTROL]      make a backup of each existing destination file'
+          zh-CN: 对每个现有的目标文件进行备份。
       directory:
         short: '-d'
         long: '--directory'
         name:
           en: directory
+          zh-CN: 目录
         description:
           en: >-
             allow the superuser to attempt to hard link directories (note: will
             probably fail due to system restrictions, even for the superuser)
+          zh-CN: 允许超级用户尝试硬连接目录（注意：可能会因为系统限制而失败，即使是超级用户也会失败
       force:
         short: '-f'
         long: '--force'
         name:
           en: force
+          zh-CN: 强制
         description:
           en: remove existing destination files
+          zh-CN: 删除现有目标文件
       interactive:
         short: '-i'
         long: '--interactive'
         name:
           en: interactive
+          zh-CN: 询问
         description:
           en: prompt whether to remove destinations
+          zh-CN: 删除时询问
       logical:
         short: '-L'
         long: '--logical'
@@ -68,20 +84,25 @@ versions:
         long: '--relative'
         name:
           en: relative
+          zh-CN: 相对的
         description:
           en: create symbolic links relative to link location
+          zh-CN: 创建相对于链接位置的符号链接
       symbolic:
         short: '-s'
         long: '--symbolic'
         name:
           en: symbolic
+          zh-CN: 符号链接
         description:
           en: make symbolic links instead of hard links
+          zh-CN: 符号链接，而不是硬链接
       suffix:
         short: '-S'
         long: '--suffix'
         name:
           en: suffix
+          zh-CN: 后缀
         description:
           en: override the usual backup suffix
         value:
@@ -91,16 +112,20 @@ versions:
         long: '--target-directory'
         name:
           en: target-directory
+          zh-CN: 目标目录
         description:
           en: specify the DIRECTORY in which to create the links
-        value: './'
+          zh-CN: 指定要创建链接的目录。
+        value: ./
       no-target-directory:
         short: '-T'
         long: '--no-target-directory'
         name:
           en: no-target-directory
+          zh-CN: 无目标目录
         description:
           en: treat LINK_NAME as a normal file always
+          zh-CN: 始终把LINK_NAME作为一个正常的文件来对待。
       verbose:
         short: '-v'
         long: '--verbose'
@@ -112,14 +137,17 @@ versions:
         long: '--help'
         name:
           en: help
+          zh-CN: 帮助
         description:
           en: display this help and exit
       version:
         long: '--version'
         name:
           en: version
+          zh-CN: 版本
         description:
           en: output version information and exit
+          zh-CN: 输出版本信息并退出
       '-b':
         short: '-b'
         name:
@@ -127,35 +155,75 @@ versions:
       target:
         name:
           en: target
+          zh-CN: 目标
         description:
-          en: "target file"
+          en: target file
+          zh-CN: 目标文件
         value:
-          en: "path"
+          en: path
       targets:
         name:
           en: targets
+          zh-CN: 目标(多)
         description:
-          en: "target files"
+          en: target files
+          zh-CN: 目标文件(多个)
         value:
-          en: "path"
+          en: path
         multiple: true
       link_name:
         name:
           en: link name
+          zh-CN: 链接名
         value:
-          en: ""
+          en: ''
     usages:
       - name:
           en: Single
           zh-CN: 单个
         steps:
-          - items: ["symbolic", "force", "interactive", "backup","directory","logical","no-dereference","physical","relative","suffix","target-directory","no-target-directory","verbose","help","version","-b"]
-          - items: ['target']
-          - items: ['link_name']
+          - items:
+              - symbolic
+              - force
+              - interactive
+              - backup
+              - directory
+              - logical
+              - no-dereference
+              - physical
+              - relative
+              - suffix
+              - target-directory
+              - no-target-directory
+              - verbose
+              - help
+              - version
+              - '-b'
+          - items:
+              - target
+          - items:
+              - link_name
       - name:
           en: Multiple
           zh-CN: 多个
         steps:
-          - items: ['target-directory']
-          - items: ["symbolic", "force", "interactive", "backup","directory","logical","no-dereference","physical","relative","suffix","no-target-directory","verbose","help","version","-b"]
-          - items: ['targets']
+          - items:
+              - target-directory
+          - items:
+              - symbolic
+              - force
+              - interactive
+              - backup
+              - directory
+              - logical
+              - no-dereference
+              - physical
+              - relative
+              - suffix
+              - no-target-directory
+              - verbose
+              - help
+              - version
+              - '-b'
+          - items:
+              - targets

@@ -1,149 +1,177 @@
 name: mv
-description: 'Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.'
+description:
+  en: 'Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.'
+  zh-CN: 将SOURCE重命名为DEST，或将SOURCE移至DIRECTORY。
 versions:
-  "8.28":
+  '8.28':
     cmdName: mv
     contributors:
-    - name: phphe
-      url: https://github.com/phphe
+      - name: phphe
+        url: 'https://github.com/phphe'
     options:
-      force: 
-        short: "-f"
-        long: "--force"
-        name: 
-          en: "force"
-        description: 
-          en: "do not prompt before overwriting"
-      interactive: 
-        short: "-i"
-        long: "--interactive"
-        name: 
-          en: "interactive"
-        description: 
-          en: "prompt before overwrite"
-      dont_overwrite: 
-        short: "-n"
-        long: "--no-clobber"
-        name: 
-          en: "don't overwrite"
-        description: 
-          en: "do not overwrite an existing file"
-      strip-trailing-slashes: 
-        long: "--strip-trailing-slashes"
-        name: 
-          en: "strip-trailing-slashes"
-        description: 
-          en: "remove any trailing slashes from each SOURCE argument"
-      suffix: 
-        short: "-S"
-        long: "--suffix"
-        name: 
-          en: "suffix"
-        description: 
-          en: "override the usual backup suffix"
-        value: 
-          en: "SUFFIX"
-      target-directory: 
-        short: "-t"
-        long: "--target-directory"
-        name: 
-          en: "target-directory"
-        description: 
-          en: "move all SOURCE arguments into DIRECTORY"
-        value: 
-          en: "DIRECTORY"
-      no-target-directory: 
-        short: "-T"
-        long: "--no-target-directory"
-        name: 
-          en: "no-target-directory"
-        description: 
-          en: "treat DEST as a normal file"
-      update: 
-        short: "-u"
-        long: "--update"
-        name: 
-          en: "update"
-        description: 
-          en: "move only when the SOURCE file is newer than the destination file or when the destination file is missing"
-      verbose: 
-        short: "-v"
-        long: "--verbose"
-        name: 
-          en: "verbose"
-        description: 
-          en: "explain what is being done"
-      context: 
-        short: "-Z"
-        long: "--context"
-        name: 
-          en: "context"
-        description: 
-          en: "set SELinux security context of destination file to default type"
-      help: 
-        long: "--help"
-        name: 
-          en: "help"
-        description: 
-          en: "display this help and exit"
-      version: 
-        long: "--version"
-        name: 
-          en: "version"
-        description: 
-          en: "output version information and exit"
-      -b: 
-        short: "-b"
-        name: 
-          en: "like --backup but does not accept an argument"
-      backup: 
-        long: "--backup"
-        name: 
-          en: "backup"
-        description: 
-          en: "make a backup of each existing destination file"
-        value: "CONTROL"
+      force:
+        short: '-f'
+        long: '--force'
+        name:
+          en: force
+          zh-CN: 强制
+        description:
+          en: do not prompt before overwriting
+          zh-CN: 覆盖前不提示
+      interactive:
+        short: '-i'
+        long: '--interactive'
+        name:
+          en: interactive
+          zh-CN: 交互
+        description:
+          en: prompt before overwrite
+          zh-CN: 覆写前提示
+      dont_overwrite:
+        short: '-n'
+        long: '--no-clobber'
+        name:
+          en: don't overwrite
+          zh-CN: 不要覆盖
+        description:
+          en: do not overwrite an existing file
+          zh-CN: 不要覆盖现有文件
+      strip-trailing-slashes:
+        long: '--strip-trailing-slashes'
+        name:
+          en: strip-trailing-slashes
+        description:
+          en: remove any trailing slashes from each SOURCE argument
+          zh-CN: 删去每个SOURCE参数中的破折号
+      suffix:
+        short: '-S'
+        long: '--suffix'
+        name:
+          en: suffix
+          zh-CN: 后缀
+        description:
+          en: override the usual backup suffix
+        value:
+          en: SUFFIX
+      target-directory:
+        short: '-t'
+        long: '--target-directory'
+        name:
+          en: target-directory
+          zh-CN: 目标目录
+        description:
+          en: move all SOURCE arguments into DIRECTORY
+          zh-CN: 将所有SOURCE参数移至DIRECTORY中
+        value:
+          en: DIRECTORY
+      no-target-directory:
+        short: '-T'
+        long: '--no-target-directory'
+        name:
+          en: no-target-directory
+          zh-CN: 无目标目录
+        description:
+          en: treat DEST as a normal file
+          zh-CN: 把DEST当作普通文件
+      update:
+        short: '-u'
+        long: '--update'
+        name:
+          en: update
+          zh-CN: 更新
+        description:
+          en: >-
+            move only when the SOURCE file is newer than the destination file or
+            when the destination file is missing
+          zh-CN: 只有当SOURCE文件比目标文件更新或目标文件缺失时，才会移动。
+      verbose:
+        short: '-v'
+        long: '--verbose'
+        name:
+          en: verbose
+        description:
+          en: explain what is being done
+      context:
+        short: '-Z'
+        long: '--context'
+        name:
+          en: context
+        description:
+          en: set SELinux security context of destination file to default type
+          zh-CN: 将目标文件的SELinux安全上下文设置为默认类型
+      help:
+        long: '--help'
+        name:
+          en: help
+          zh-CN: 帮助
+        description:
+          en: display this help and exit
+      version:
+        long: '--version'
+        name:
+          en: version
+          zh-CN: 版本
+        description:
+          en: output version information and exit
+          zh-CN: 输出版本信息并退出
+      '-b':
+        short: '-b'
+        name:
+          en: like --backup but does not accept an argument
+      backup:
+        long: '--backup'
+        name:
+          en: backup
+          zh-CN: 备份
+        description:
+          en: make a backup of each existing destination file
+          zh-CN: 逐一备份现有目标文件
+        value: CONTROL
       source:
         name:
           en: source
+          zh-CN: 源文件
         description:
-          en: "The source files"
+          en: The source files
+          zh-CN: 源文件
         value:
-          en: "path or pattern"
+          en: path or pattern
         multiple: true
       dest:
         name:
           en: dest
+          zh-CN: 目标
         description:
-          en: "The target"
+          en: The target
+          zh-CN: 目标
         value:
-          en: "directory or file path"
+          en: directory or file path
     usages:
-    - name:
-        en: Regular
-        zh-CN: 常规
-      steps:
-      - optional: true
-        multiple: true
-        items:
-        - force
-        - interactive
-        - dont_overwrite
-        - update
-        - backup
-      - optional: true
-        multiple: true
-        items:
-        - strip-trailing-slashes
-        - suffix
-        - target-directory
-        - no-target-directory
-        - context
-        - -b
-        - verbose
-        - help
-        - version
-      - items:
-        - source
-      - items:
-        - dest
+      - name:
+          en: Regular
+          zh-CN: 常规
+        steps:
+          - optional: true
+            multiple: true
+            items:
+              - force
+              - interactive
+              - dont_overwrite
+              - update
+              - backup
+          - optional: true
+            multiple: true
+            items:
+              - strip-trailing-slashes
+              - suffix
+              - target-directory
+              - no-target-directory
+              - context
+              - '-b'
+              - verbose
+              - help
+              - version
+          - items:
+              - source
+          - items:
+              - dest

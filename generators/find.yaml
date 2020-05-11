@@ -1,6 +1,6 @@
 name: find
 description:
-  en: 'search for files in a directory hierarchy'
+  en: search for files in a directory hierarchy
 versions:
   4.7.0-git:
     variables:
@@ -60,243 +60,285 @@ versions:
         url: 'https://github.com/phphe'
     options:
       path:
-        name: path
-        value: './'
-      name: 
-        name: "name"
-        long: "-name"
-        value: ''
-      iname: 
         name:
-          en: "name ignore case"
-          zh-CN: "忽略大小写的名称"
-        long: "-iname"
+          en: path
+        value: ./
+      name:
+        name:
+          en: name
+          zh-CN: 名称
+        long: '-name'
+        value: ''
+        zh-CN: ''
+      iname:
+        name:
+          en: name ignore case
+          zh-CN: 忽略大小写的名称
+        long: '-iname'
         value: ''
       perm:
-        name: "permission"
-        long: "-perm"
-        description: "find by permission"
+        name:
+          en: permission
+          zh-CN: 权限
+        long: '-perm'
+        description:
+          en: find by permission
+          zh-CN: 按权限查找
         value: true
         noQuotes: true
         valueControls:
           - type: specified_string
-            value: '/'
+            value: /
           - type: select
             items:
-              -
-                value: 'u'
+              - value: u
                 name:
                   en: file owner
                   zh-CN: 文件拥有者
-              -
-                value: 'g'
+              - value: g
                 name:
                   en: members of the file's group
                   zh-CN: 文件群组用户
-              -
-                value: 'o'
+              - value: o
                 name:
                   en: other users
                   zh-CN: 其他用户
-              -
-                value: 'a'
+              - value: a
                 name:
                   en: all users
                   zh-CN: 所有用户
           - type: specified_string
-            value: '='
+            value: =
           - type: select
             multiple: true
             items:
-              -
-                value: r
+              - value: r
                 name:
                   en: read
                   zh-CN: 读
-              -
-                value: w
+              - value: w
                 name:
                   en: write
                   zh-CN: 写
-              -
-                value: x
+              - value: x
                 name:
                   en: execute
                   zh-CN: 执行
-      user: 
-        name: "user"
-        long: "-user"
+      user:
+        name:
+          en: user
+          zh-CN: 用户
+        long: '-user'
         noQuotes: true
         value: ''
-      group: 
-        name: "group"
-        long: "-group"
+      group:
+        name:
+          en: group
+          zh-CN: 用户组
+        long: '-group'
         noQuotes: true
         value: ''
-      type: 
-        name: "type"
-        long: "-type"
+      type:
+        name:
+          en: type
+          zh-CN: 类型
+        long: '-type'
         noQuotes: true
-        description: "https://www.gnu.org/software/findutils/manual/html_mono/find.html#Type"
+        description:
+          en: >-
+            https://www.gnu.org/software/findutils/manual/html_mono/find.html#Type
         value: true
-        allowedValues: 'variables.types'
+        allowedValues: variables.types
       size:
-        name: size
-        long: "-size"
+        name:
+          en: size
+          zh-CN: 大小
+        long: '-size'
         noQuotes: true
         value: true
         valueControls:
-        - type: string
-        - type: select
-          items: 'variables.sizeUnits'
+          - type: string
+          - type: select
+            items: variables.sizeUnits
       sizeRange:
-        name: "size range"
+        name:
+          en: size range
+          zh-CN: 大小范围
         noQuotes: true
         value: true
         valueControls:
-        - type: string
-        - type: select
-          items: 'variables.sizeUnits'
-        - type: specified_string
-          value: '-'
-        - type: string
-        - type: select
-          items: 'variables.sizeUnits'
-        getValue: "value => `-size +${value[0]}${value[1]} -size -${value[3]}${value[4]}`"
+          - type: string
+          - type: select
+            items: variables.sizeUnits
+          - type: specified_string
+            value: '-'
+          - type: string
+          - type: select
+            items: variables.sizeUnits
+        getValue: 'value => `-size +${value[0]}${value[1]} -size -${value[3]}${value[4]}`'
       amin:
-        long: "-amin"
+        long: '-amin'
         noQuotes: true
-        name: 
-          en: 'accessed in the last n minutes'
-          zh-CN: 'n分钟内访问过的文件'
+        name:
+          en: accessed in the last n minutes
+          zh-CN: n分钟内访问过的文件
         value: true
       aminRange:
         noQuotes: true
-        name: 
+        name:
           en: 'range: accessed in the last n minutes'
           zh-CN: '范围: n分钟内访问过的文件'
         value: true
         valueControls:
-        - type: string
-        - type: specified_string
-          value: '-'
-        - type: string
-        getValue: "value => `-amin +${value[0]} -amin -${value[2]}`"
-
+          - type: string
+          - type: specified_string
+            value: '-'
+          - type: string
+        getValue: 'value => `-amin +${value[0]} -amin -${value[2]}`'
       atime:
-        long: "-atime"
+        long: '-atime'
         noQuotes: true
-        name: 
-          en: 'accessed in the last n*24 hours'
-          zh-CN: 'n*24小时内访问过的文件'
+        name:
+          en: accessed in the last n*24 hours
+          zh-CN: n*24小时内访问过的文件
         value: true
       atimeRange:
         noQuotes: true
-        name: 
+        name:
           en: 'range: accessed in the last n*24 hours'
           zh-CN: '范围: n*24小时内访问过的文件'
         value: true
         valueControls:
-        - type: string
-        - type: specified_string
-          value: '-'
-        - type: string
-        getValue: "value => `-atime +${value[0]} -atime -${value[2]}`"
+          - type: string
+          - type: specified_string
+            value: '-'
+          - type: string
+        getValue: 'value => `-atime +${value[0]} -atime -${value[2]}`'
       cmin:
-        long: "-cmin"
+        long: '-cmin'
         noQuotes: true
-        name: 
-          en: 'status changed in the last n minutes'
-          zh-CN: 'n分钟内改变状态的文件'
+        name:
+          en: status changed in the last n minutes
+          zh-CN: n分钟内改变状态的文件
         value: true
       cminRange:
         noQuotes: true
-        name: 
+        name:
           en: 'range: status changed in the last n minutes'
           zh-CN: '范围: n分钟内改变状态的文件'
         value: true
         valueControls:
-        - type: string
-        - type: specified_string
-          value: '-'
-        - type: string
-        getValue: "value => `-cmin +${value[0]} -cmin -${value[2]}`"
+          - type: string
+          - type: specified_string
+            value: '-'
+          - type: string
+        getValue: 'value => `-cmin +${value[0]} -cmin -${value[2]}`'
       ctime:
-        long: "-ctime"
+        long: '-ctime'
         noQuotes: true
-        name: 
-          en: 'status changed in the last n*24 hours'
-          zh-CN: 'n*24小时内改变状态的文件'
+        name:
+          en: status changed in the last n*24 hours
+          zh-CN: n*24小时内改变状态的文件
         value: true
       ctimeRange:
         noQuotes: true
-        name: 
+        name:
           en: 'range: status changed in the last n*24 hours'
           zh-CN: '范围: n*24小时内改变状态的文件'
         value: true
         valueControls:
-        - type: string
-        - type: specified_string
-          value: '-'
-        - type: string
-        getValue: "value => `-ctime +${value[0]} -ctime -${value[2]}`"
+          - type: string
+          - type: specified_string
+            value: '-'
+          - type: string
+        getValue: 'value => `-ctime +${value[0]} -ctime -${value[2]}`'
       mmin:
-        long: "-mmin"
+        long: '-mmin'
         noQuotes: true
-        name: 
-          en: 'modified in the last n minutes'
-          zh-CN: 'n分钟内修改的文件'
+        name:
+          en: modified in the last n minutes
+          zh-CN: n分钟内修改的文件
         value: true
       mminRange:
         noQuotes: true
-        name: 
+        name:
           en: 'range: modified in the last n minutes'
           zh-CN: '范围: n分钟内修改的文件'
         value: true
         valueControls:
-        - type: string
-        - type: specified_string
-          value: '-'
-        - type: string
-        getValue: "value => `-mmin +${value[0]} -mmin -${value[2]}`"
+          - type: string
+          - type: specified_string
+            value: '-'
+          - type: string
+        getValue: 'value => `-mmin +${value[0]} -mmin -${value[2]}`'
       mtime:
-        long: "-mtime"
+        long: '-mtime'
         noQuotes: true
-        name: 
-          en: 'modified in the last n*24 hours'
-          zh-CN: 'n*24小时内修改的文件'
+        name:
+          en: modified in the last n*24 hours
+          zh-CN: n*24小时内修改的文件
         value: true
       mtimeRange:
         noQuotes: true
-        name: 
+        name:
           en: 'range: modified in the last n*24 hours'
           zh-CN: '范围: n*24小时内修改的文件'
         value: true
         valueControls:
-        - type: string
-        - type: specified_string
-          value: '-'
-        - type: string
-        getValue: "value => `-mtime +${value[0]} -mtime -${value[2]}`"
+          - type: string
+          - type: specified_string
+            value: '-'
+          - type: string
+        getValue: 'value => `-mtime +${value[0]} -mtime -${value[2]}`'
       empty:
-        long: "-empty"
-        name: "empty"
-        description: "empty file or directory"
+        long: '-empty'
+        name:
+          en: empty
+          zh-CN: 空的
+        description:
+          en: empty file or directory
+          zh-CN: 空文件或目录
       delete:
-        long: "-delete"
-        name: "delete"
-        description: "delete found files"
+        long: '-delete'
+        name:
+          en: delete
+          zh-CN: 删除
+        description:
+          en: delete found files
+          zh-CN: 删除找到的文件
     usages:
       - name:
           en: Regular
           zh-CN: 常规
         steps:
-          - items: ['path']
-          - items: ['name', 'iname']
-          - items: ['perm', 'user', 'group', 'type', 'size', 'sizeRange', 'amin', 'aminRange', 'atime', 'atimeRange', 'cmin', 'cminRange', 'ctime', 'ctimeRange', 'mmin', 'mminRange', 'mtime', 'mtimeRange', 'empty']
+          - items:
+              - path
+          - items:
+              - name
+              - iname
+          - items:
+              - perm
+              - user
+              - group
+              - type
+              - size
+              - sizeRange
+              - amin
+              - aminRange
+              - atime
+              - atimeRange
+              - cmin
+              - cminRange
+              - ctime
+              - ctimeRange
+              - mmin
+              - mminRange
+              - mtime
+              - mtimeRange
+              - empty
             optional: true
             multiple: true
-          - items: ['delete']
+          - items:
+              - delete
             optional: true
             multiple: true
-

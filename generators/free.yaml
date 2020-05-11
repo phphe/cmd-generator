@@ -1,7 +1,9 @@
 name: free
 description:
-  en: 'Shows system memory usage, including physical memory, interactive zone memory (SWAP), and kernel buffer memory.'
-  zh-CN: '显示系统内存使用情况，包括物理内存、交互区内存(swap)和内核缓冲区内存。'
+  en: >-
+    Shows system memory usage, including physical memory, interactive zone
+    memory (SWAP), and kernel buffer memory.
+  zh-CN: 显示系统内存使用情况，包括物理内存、交互区内存(swap)和内核缓冲区内存。
 versions:
   3.3.12:
     cmdName: free
@@ -14,32 +16,38 @@ versions:
         long: '--bytes'
         name:
           en: bytes
+          zh-CN: 字节
         description:
           en: show output in bytes
+          zh-CN: 显示输出以字节为单位
       kilo:
         long: '--kilo'
         name:
           en: kilo
         description:
           en: show output in kilobytes
+          zh-CN: 显示输出，单位为千字节
       mega:
         long: '--mega'
         name:
           en: mega
         description:
           en: show output in megabytes
+          zh-CN: 显示输出，单位为兆字节
       giga:
         long: '--giga'
         name:
           en: giga
         description:
           en: show output in gigabytes
+          zh-CN: 显示输出，以千兆字节为单位
       tera:
         long: '--tera'
         name:
           en: tera
         description:
           en: show output in terabytes
+          zh-CN: 显示输出，单位为百万兆字节
       peta:
         long: '--peta'
         name:
@@ -87,11 +95,15 @@ versions:
           zh-CN: 易读的
         description:
           en: show human-readable output
-      "1k=1000":
+          zh-CN: 易读的
+      1k=1000:
         long: '--si'
-        name: "1k=1000"
+        name:
+          en: 1k=1000
+          zh-CN: 1k=1000
         description:
           en: use powers of 1000 not 1024
+          zh-CN: 使用1000进制
       lohi:
         short: '-l'
         long: '--lohi'
@@ -99,6 +111,7 @@ versions:
           en: lohi
         description:
           en: show detailed low and high memory statistics
+          zh-CN: 显示详细的低内存和高内存统计
       total:
         short: '-t'
         long: '--total'
@@ -107,35 +120,58 @@ versions:
           zh-CN: 全部
         description:
           en: show total for RAM + swap
+          zh-CN: 显示RAM和swap的总计
       wide:
         short: '-w'
         long: '--wide'
         name:
           en: wide
+          zh-CN: 宽
         description:
           en: wide output
-      'repeat_every':
+          zh-CN: 宽输出
+      repeat_every:
         short: '-s'
         name:
-          en: 'repeat every seconds'
+          en: repeat every seconds
           zh-CN: 每几秒刷新
         description:
           en: 'N, --seconds N   repeat printing every N seconds'
+          zh-CN: 每N秒重复打印一次
         value: 'n'
-      'repeat_times':
+      repeat_times:
         short: '-c'
         name:
-          en: 'repeat times'
+          en: repeat times
           zh-CN: 刷新几次
         description:
           en: 'N, --count N     repeat printing N times, then exit'
+          zh-CN: 重复打印N次，然后退出
         value: 'n'
     usages:
       - name:
           en: Regular
           zh-CN: 常规
         steps:
-        - items: ["kibi","mebi","gibi","tebi","pebi", "bytes","kilo","mega","giga","tera","peta"]
-        - items: ["human","1k=1000","lohi","total","wide", "repeat_every", "repeat_times"]
-          optional: true
-          multiple: true
+          - items:
+              - kibi
+              - mebi
+              - gibi
+              - tebi
+              - pebi
+              - bytes
+              - kilo
+              - mega
+              - giga
+              - tera
+              - peta
+          - items:
+              - human
+              - 1k=1000
+              - lohi
+              - total
+              - wide
+              - repeat_every
+              - repeat_times
+            optional: true
+            multiple: true
