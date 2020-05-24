@@ -101,7 +101,7 @@ type SelectItem = string|{
 export const common = {
   verbose: {
     name: {
-      en: 'verbose',
+      en: 'Verbose',
       'zh-CN': '详细模式',
     },
     description: {
@@ -112,7 +112,7 @@ export const common = {
   },
   interactive: {
     name: {
-      en: 'interactive',
+      en: 'Interactive',
       'zh-CN': '交互',
     },
     description: {
@@ -120,5 +120,17 @@ export const common = {
       'zh-CN': '每个动作前需要确认.',
     },
     cmd: ['--interactive']
+  },
+  others: {
+    name: {
+      en: 'Others',
+      'zh-CN': '杂项',
+    },
+    type: 'check',
+    multiple: true,
+  },
+  file: {
+    name: {en: 'File', 'zh-CN': '文件'},
+    type: 'string',
   },
 }
