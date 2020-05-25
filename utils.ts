@@ -7,7 +7,11 @@ export interface BaseFormControl{
   required?: boolean // show red '*'
   joinValue?: boolean
   valueSeparator?: string // available when joinValue = true. default: ','
+  cmdPriority?: number // The priority in result cmd, asc order.
+  value?: string|MixedMultipleControlValue // don't set this
 }
+
+export type MixedMultipleControlValue = (string|string[])[][]
 
 export interface FormControlInput extends BaseFormControl{
   type: 'string'
@@ -45,7 +49,17 @@ export interface FormControlCheckMultiple extends BaseFormControl{
   multiple: true
 }
 
-export type FormControl = FormControlInput|FormControlInputMultiple|FormControlSelect|FormControlSelectMultiple|FormControlCheck|FormControlCheckMultiple
+export interface FormControlMixed extends BaseFormControl{
+  type: 'mixed'
+  defaultValue?: string[]
+  multiple?: boolean,
+  controls: FormControl[],
+  getCmd?: (info: getCmdArg) => string,
+}
+export interface getCmdArg{
+  control: FormControl
+}
+export type FormControl = FormControlInput|FormControlInputMultiple|FormControlSelect|FormControlSelectMultiple|FormControlCheck|FormControlCheckMultiple|FormControlMixed
 
 type ControlValue = string|string[]
 interface ControlValues {
@@ -119,7 +133,6 @@ export const common = {
       en: 'Ask for confirmation for every action.',
       'zh-CN': '每个动作前需要确认.',
     },
-    cmd: ['--interactive']
   },
   others: {
     name: {
@@ -133,4 +146,10 @@ export const common = {
     name: {en: 'File', 'zh-CN': '文件'},
     type: 'string',
   },
+  fileOrDir: {
+    name: {en: 'File or directory', 'zh-CN': '文件或目录'},
+    type: 'string',
+  },
 }
+
+export const defaultUsageName = {'en': 'Usage', 'zh-CN': '使用方法'}

@@ -1,4 +1,5 @@
 import { Generator, common } from "../utils";
+import * as ut from "../utils";
 
 const controls = {
   number: {
@@ -35,7 +36,7 @@ export default <Generator>{
   cmdName: 'cat',
   usages: [
     {
-      name: {en: 'Output file content', 'zh-CN': '输出文件内容'},
+      name: ut.defaultUsageName,
       description: {
         en: `Outputs the contents of one or more files or standard inputs. The default output is to the standard output, which is equivalent to displaying them. Use '-' for standard input, so you can enter the content manually. You can use angle brackets to output or append to a file, please search 'bash angle brackets' for more.`,
         'zh-CN': `输出一个或多个文件或标准输入的内容. 默认输出到标准输出, 相当于显示他们. 使用'-'代表标准输入, 这样你可以手动输入内容. 可以使用尖括号输出或附加到文件, 详情请搜索'bash 尖括号'.`,

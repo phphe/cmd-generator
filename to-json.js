@@ -12,7 +12,12 @@ setTimeout(() => {
     if (fileName.endsWith('.js')) {
       const info = require(p('dist/generators/' + fileName)).default
       const target = p('generators-json/'+fileName.replace(/\.js$/, '.json'))
-      fs.writeFileSync(target, JSON.stringify(info, null, 2))
+      fs.writeFileSync(target, JSON.stringify(info, (key, value) => {
+        if (typeof value === 'function') {
+          return value.toString()
+        }
+        return value
+      }, 2))
     }
   })
 }, 200)
