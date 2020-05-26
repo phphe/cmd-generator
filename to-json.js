@@ -14,7 +14,7 @@ setTimeout(() => {
       const target = p('generators-json/'+fileName.replace(/\.js$/, '.json'))
       fs.writeFileSync(target, JSON.stringify(info, (key, value) => {
         if (typeof value === 'function') {
-          return value.toString()
+          return `(${value.toString()})`
         }
         return value
       }, 2))

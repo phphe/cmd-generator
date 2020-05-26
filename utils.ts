@@ -1,77 +1,36 @@
-export interface BaseFormControl{
+export interface FormControl{
   id?: string // to mark control, useful when you use valueGetters to format multiple controls' value
   name?: string|I18nString
   description?: string|I18nString
+  type: 'string' | 'select' | 'check' | 'mixed'
   multiple?: boolean
+  items?: SelectItem[]
   cmd?: CMD
-  required?: boolean // show red '*'
+  defaultValue?: string|string[]|boolean
   joinValue?: boolean
   valueSeparator?: string // available when joinValue = true. default: ','
   cmdPriority?: number // The priority in result cmd, asc order.
   value?: string|MixedMultipleControlValue // don't set this
+  // mixed
+  controls?: FormControl[],
+  getCmd?: (info: getCmdArg) => string,
+  ignoreValue?: boolean // don't join value to result
 }
 
+export interface controlsObject{
+  [key:string]: FormControl
+}
 export type MixedMultipleControlValue = (string|string[])[][]
 
-export interface FormControlInput extends BaseFormControl{
-  type: 'string'
-  defaultValue?: string
-}
-
-export interface FormControlInputMultiple extends BaseFormControl{
-  type: 'string'
-  defaultValue?: string[]
-  multiple: true
-}
-
-export interface FormControlSelect extends BaseFormControl{
-  type: 'select'
-  defaultValue?: string
-  items: SelectItem[]
-}
-
-export interface FormControlSelectMultiple extends BaseFormControl{
-  type: 'select'
-  defaultValue?: string[]
-  multiple: true
-  items: SelectItem[]
-}
-
-export interface FormControlCheck extends BaseFormControl{
-  type: 'check'
-  defaultValue?: boolean|number // number is for single choice, it is index
-  items?: SelectItem[] // single choice if items existing
-}
-
-export interface FormControlCheckMultiple extends BaseFormControl{
-  type: 'check'
-  defaultValue?: string[]
-  multiple: true
-}
-
-export interface FormControlMixed extends BaseFormControl{
-  type: 'mixed'
-  defaultValue?: string[]
-  multiple?: boolean,
-  controls: FormControl[],
-  getCmd?: (info: getCmdArg) => string,
-}
 export interface getCmdArg{
   control: FormControl
+  usage: Usage
 }
-export type FormControl = FormControlInput|FormControlInputMultiple|FormControlSelect|FormControlSelectMultiple|FormControlCheck|FormControlCheckMultiple|FormControlMixed
 
 type ControlValue = string|string[]
 interface ControlValues {
   [id:string]: ControlValue
 }
-type ValueGetterFunction = (value:ControlValue|ControlValues) => string
-interface ValueGetterObject{
-  id?: string|string[] // override controlId in key
-  getter: ValueGetterFunction
-}
-type ValueGetter = ValueGetterFunction|ValueGetterObject
-
 type CMD = string|string[] // if array, [short format, long format, ...other formats]
 
 export interface Generator{
@@ -88,12 +47,10 @@ export interface Generator{
     form: {
       controls: FormControl[]
       advanced?: FormControl[]
-      valueGetters?: {
-        [controlId:string]: ValueGetter
-      },
     }
   }[]
 }
+export type Usage = Generator['usages'][0]
 
 interface I18nString{
   [languageCode: string]: string
@@ -106,7 +63,7 @@ interface Contributor{
 
 type SelectItem = string|{
   name:string|I18nString
-  value:string
+  value?:string
   description?: string|I18nString
   cmd?: CMD
   defaultValue?: boolean // for multi-select checkbox
@@ -134,7 +91,7 @@ export const common = {
       'zh-CN': '每个动作前需要确认.',
     },
   },
-  others: {
+  others: <FormControl>{
     name: {
       en: 'Others',
       'zh-CN': '杂项',
@@ -142,11 +99,11 @@ export const common = {
     type: 'check',
     multiple: true,
   },
-  file: {
+  file: <FormControl>{
     name: {en: 'File', 'zh-CN': '文件'},
     type: 'string',
   },
-  fileOrDir: {
+  fileOrDir: <FormControl>{
     name: {en: 'File or directory', 'zh-CN': '文件或目录'},
     type: 'string',
   },

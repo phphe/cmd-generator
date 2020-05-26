@@ -1,7 +1,7 @@
 import { Generator, common } from "../utils";
 import * as ut from "../utils";
 
-const controls = {
+const controls:ut.controlsObject = {
   archive: {
     name: {en: 'Archive', 'zh-CN': '打包文件'},
     description: {
@@ -30,9 +30,19 @@ const controls = {
     type: 'string',
     cmd: ['-C', '--directory'],
   },
+  others: {
+    name: {en: 'Others', 'zh-CN': '杂项'},
+    type: 'check',
+    multiple: true,
+    items: [
+      {...common.verbose, defaultValue: true},
+      {...common.interactive, cmd: ['-w', '--interactive']},
+    ],
+  },
 }
 
-const baseUsage = {
+const baseUsage: ut.Usage = {
+  name: '',
   form: {
     controls: [
       controls.archive,
@@ -46,15 +56,7 @@ const baseUsage = {
         multiple: true,
       },
       controls.algorithm,
-      {
-        name: {en: 'Others', 'zh-CN': '杂项'},
-        type: 'check',
-        multiple: true,
-        items: [
-          {...common.verbose, defaultValue: true},
-          {...common.interactive, cmd: ['-w', '--interactive']},
-        ],
-      },
+      controls.others,
     ],
     advanced: [
       {
@@ -82,7 +84,7 @@ const baseUsage = {
   },
 }
 
-export default <Generator>{
+const generatorInfo:Generator = {
   name: 'bsdtar',
   description: `tar(bsdtar): manipulate archive files`,
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
@@ -138,6 +140,7 @@ export default <Generator>{
       form: {
         controls: [
           controls.archive,
+          controls.others,
         ],
         advanced: [
           controls.workdir,
@@ -175,3 +178,5 @@ export default <Generator>{
     },
   ],
 }
+
+export default generatorInfo

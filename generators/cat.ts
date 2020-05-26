@@ -1,7 +1,7 @@
 import { Generator, common } from "../utils";
 import * as ut from "../utils";
 
-const controls = {
+const items = {
   number: {
     name: {en: 'Number all output lines', 'zh-CN': '显示行号'},
     cmd: ['-n', '--number'],
@@ -26,7 +26,7 @@ const controls = {
   },
 }
 
-export default <Generator>{
+const generatorInfo:Generator = {
   name: 'cat',
   description: {
     en: 'Concatenate FILE(s) to standard output. With no FILE, or when FILE is -, read standard input.',
@@ -49,9 +49,11 @@ export default <Generator>{
               'zh-CN': `'-'代表标准输入. 只可使用一次. 只能在文件列表的最后.`,
             }
           },
-          {...common.others, items: [controls.number, controls.showEnds, controls.squeezeBlank, controls.showTabs, controls.showNonprinting]}
+          {...common.others, items: [items.number, items.showEnds, items.squeezeBlank, items.showTabs, items.showNonprinting]}
         ],
       }
     },
   ],
 }
+
+export default generatorInfo

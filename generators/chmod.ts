@@ -1,7 +1,7 @@
 import { Generator, common } from "../utils";
 import * as ut from "../utils";
 
-const controls = {
+const items = {
   verbose: {
     name: {
       en: 'output a diagnostic for every file processed',
@@ -25,7 +25,7 @@ const controls = {
   },
 }
 
-export default <Generator>{
+const generatorInfo:Generator = {
   name: 'chmod',
   description: {
     en: 'Change the permissions of a file or directory.',
@@ -144,15 +144,15 @@ export default <Generator>{
                 name: {en: 'Change files and directories recursively', 'zh-CN': '递归地更改文件和目录'},
                 cmd: ['-R', '--recursive'],
               },
-              controls.silent,
+              items.silent,
             ],
           },
           {
             ...common.others,
             multiple: false,
             items: [
-              {...controls.verbose, defaultValue: true},
-              {...controls.changes},
+              {...items.verbose, defaultValue: true},
+              {...items.changes},
             ]
           },
         ],
@@ -168,7 +168,7 @@ export default <Generator>{
         controls: [
           {...common.fileOrDir, multiple: true, cmdPriority: 2},
           {
-            name: {en: 'Copy from', 'zh-CN': '克隆目标'},
+            name: {en: 'Copy from', 'zh-CN': '目标文件/目录'},
             type: 'string',
             cmd: ['--reference'],
           },
@@ -179,15 +179,15 @@ export default <Generator>{
                 name: {en: 'Change files and directories recursively', 'zh-CN': '递归地更改文件和目录'},
                 cmd: ['-R', '--recursive'],
               },
-              controls.silent,
+              items.silent,
             ],
           },
           {
             ...common.others,
             multiple: false,
             items: [
-              {...controls.verbose, defaultValue: true},
-              {...controls.changes},
+              {...items.verbose, defaultValue: true},
+              {...items.changes},
             ]
           },
         ],
@@ -195,3 +195,5 @@ export default <Generator>{
     },
   ],
 }
+
+export default generatorInfo
