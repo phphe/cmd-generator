@@ -1,7 +1,7 @@
 import { Generator, common } from "../utils";
 import * as ut from "../utils";
 
-const controls = {
+const items = {
   verbose: {
     name: {
       en: 'output a diagnostic for every file processed',
@@ -22,6 +22,51 @@ const controls = {
       'zh-CN': '禁止显示大多数错误消息',
     },
     cmd: ['-f', '--silent', '--quiet'],
+  },
+  noDereference: {
+    name: {
+      en: 'Affect symbolic links instead of any referenced file (useful only on systems that can change the ownership of a symlink).',
+      'zh-CN': '处理符号链接本身, 而不是其指向的文件.',
+    },
+    cmd: ['-h', '--no-dereference'],
+  },
+}
+
+const controls: ut.controlsObject = {
+  fromUser: {
+    name: {
+      en: `Only change matched user`,
+      'zh-CN': '只改变匹配的用户',
+    },
+    description: {
+      en: `Change the owner and/or group of each file only if its current owner match those specified here.`,
+    },
+    type: 'string',
+    cmd: ['--from'],
+    getCmd: info => {
+      const group = info.usage.form.controls.concat(info.usage.form.advanced).find(v => v.id === 'fromGroup')
+      let r = info.control.value || ''
+      if (group.value) {
+        r += ':' + group.value
+      }
+      if (r) {
+        r = '--from ' + r
+      }
+      return <string>r
+    },
+  },
+  fromGroup: {
+    id: 'fromGroup',
+    name: {
+      en: `Only change matched group`,
+      'zh-CN': '只改变匹配的用户组',
+    },
+    description: {
+      en: `Change the owner and/or group of each file only if its current group match those specified here.`,
+    },
+    type: 'string',
+    cmd: ['--from'],
+    ignoreValue: true,
   },
 }
 
@@ -70,7 +115,8 @@ const generatorInfo:Generator = {
                 name: {en: 'Change files and directories recursively', 'zh-CN': '递归地更改文件和目录'},
                 cmd: ['-R', '--recursive'],
               },
-              controls.silent,
+              items.silent,
+              items.noDereference,
             ],
           },
           {
@@ -78,10 +124,14 @@ const generatorInfo:Generator = {
             type: 'check',
             multiple: false,
             items: [
-              {...controls.verbose, defaultValue: true},
-              {...controls.changes},
+              {...items.verbose, defaultValue: true},
+              {...items.changes},
             ]
           },
+        ],
+        advanced: [
+          controls.fromUser,
+          controls.fromGroup,
         ],
       },
     },
@@ -107,7 +157,8 @@ const generatorInfo:Generator = {
                 name: {en: 'Change files and directories recursively', 'zh-CN': '递归地更改文件和目录'},
                 cmd: ['-R', '--recursive'],
               },
-              controls.silent,
+              items.silent,
+              items.noDereference,
             ],
           },
           {
@@ -115,10 +166,14 @@ const generatorInfo:Generator = {
             type: 'check',
             multiple: false,
             items: [
-              {...controls.verbose, defaultValue: true},
-              {...controls.changes},
+              {...items.verbose, defaultValue: true},
+              {...items.changes},
             ]
           },
+        ],
+        advanced: [
+          controls.fromUser,
+          controls.fromGroup,
         ],
       }
     },

@@ -1,5 +1,5 @@
 export interface FormControl{
-  id?: string // to mark control, useful when you use valueGetters to format multiple controls' value
+  id?: string // to mark control, useful when you use getCmd' value
   name?: string|I18nString
   description?: string|I18nString
   type: 'string' | 'select' | 'check' | 'mixed'
