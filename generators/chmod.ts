@@ -46,7 +46,7 @@ export default <Generator>{
             getCmd: (info) => (<ut.MixedMultipleControlValue>info.control.value)
               .filter(oneGroupValue => oneGroupValue.every(value => value && value.length > 0))
               // @ts-ignore
-              .map(oneGroupValue => oneGroupValue.map(value => value.join ? value.join('') : value).join('')).join(' '),
+              .map(oneGroupValue => oneGroupValue.map(value => value.join ? value.join('') : value).join('')).join(','),
             cmdPriority: 1,
             controls: [
               {
