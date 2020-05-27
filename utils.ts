@@ -39,6 +39,7 @@ export interface Generator{
   contributors: Contributor[]
   cmdName?: string
   related?: string[]
+  optionNameValueSeparator?: string // default ' '; some command use '='
   usages: {
     name: string|I18nString
     description?: string|I18nString
