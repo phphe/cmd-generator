@@ -108,6 +108,10 @@ export const common = {
     name: {en: 'File or directory', 'zh-CN': '文件或目录'},
     type: 'string',
   },
+  pathOrPattern: <FormControl>{
+    name: {en: 'Path or pattern', 'zh-CN': '路径或pattern'},
+    type: 'string',
+  },
 }
 
 export const defaultUsageName = {'en': 'Usage', 'zh-CN': '使用方法'}
