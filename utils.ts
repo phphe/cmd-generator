@@ -10,7 +10,7 @@ export interface FormControl{
   joinValue?: boolean
   valueSeparator?: string // available when joinValue = true. default: ','
   cmdPriority?: number // The priority in result cmd, asc order.
-  value?: string|MixedMultipleControlValue // don't set this
+  value?: string|string[]|MixedMultipleControlValue // don't set this
   // mixed
   controls?: FormControl[],
   getCmd?: (info: getCmdArg) => string,
@@ -25,6 +25,7 @@ export type MixedMultipleControlValue = (string|string[])[][]
 export interface getCmdArg{
   control: FormControl
   usage: Usage
+  getControlByID: (id: string) => FormControl
 }
 
 type ControlValue = string|string[]
