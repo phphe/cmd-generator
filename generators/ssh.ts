@@ -39,7 +39,7 @@ const items = {
   verbose: {
     name: {en: 'Verbose mode', 'zh-CN': '详细模式'},
     "description": {
-      "en": "Verbose mode. Print	debugging messages. Multiple -v options increase the verbosity. The maximum is 3.",
+      "en": "Verbose mode. Print debugging messages. Multiple -v options increase the verbosity. The maximum is 3.",
       "zh-CN": "显示详细输出. 多个-v选项提高详细程度, 最多3个."
     },
     "cmd": [

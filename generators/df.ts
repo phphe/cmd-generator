@@ -9,7 +9,7 @@ const controls: ut.controlsObject = {}
 const generatorInfo:Generator = {
   name: 'df',
   "description": {
-    "en": "Display free	disk space.",
+    "en": "Display free disk space.",
     "zh-CN": "显示可用硬盘空间。"
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
@@ -19,6 +19,12 @@ const generatorInfo:Generator = {
       name: ut.defaultUsageName,
       form:{
         controls: [
+          {
+            name: {en: 'Path', 'zh-CN': '路径'},
+            description: {en: 'Show all if left blank. Example: /dev/sda1', 'zh-CN': '留空时显示所有. 例: /dev/sda1'},
+            type: 'string',
+            multiple: true,
+          },
           {
             "name": {
               "en": "Block size"
@@ -208,7 +214,7 @@ const generatorInfo:Generator = {
               "zh-CN": "类型"
             },
             "description": {
-              "en": "limit listing to file systems of type.  The lsvfs command can be used to find out the types of file	systems that are available on	the system.",
+              "en": "limit listing to file systems of type.  The lsvfs command can be used to find out the types of file systems that are available on the system.",
               "zh-CN": "只限于类型为TYPE的文件系统. 可使用lsvfs命令查看此系统上支持的类型."
             },
             type: 'string',

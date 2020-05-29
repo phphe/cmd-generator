@@ -72,7 +72,7 @@ const baseUsage: ut.Usage = {
       {
         name: {en: 'Include', 'zh-CN': '包含文件'},
         description: {
-          en: 'Process only files	or directories that match the specified	pattern.',
+          en: 'Process only files or directories that match the specified pattern.',
           'zh-CN': '包含匹配的文件. 路径或匹配式, 如: *foo*',
         },
         type: 'string',

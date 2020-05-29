@@ -194,7 +194,7 @@ const generatorInfo:Generator = {
                   "zh-CN": "批处理"
                 },
                 "description": {
-                  en: 'Selects batch mode	(prevents asking for passwords or passphrases).',
+                  en: 'Selects batch mode (prevents asking for passwords or passphrases).',
                   "zh-CN": "使用批处理模式（传输过程中不询问传输口令或短语）"
                 },
                 "cmd": [

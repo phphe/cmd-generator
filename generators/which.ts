@@ -32,7 +32,7 @@ const generatorInfo:Generator = {
                 cmd: ['-a'],
               },
               {
-                name: {en: 'No	output,	just return 0 if all of	the executables	are found, or 1 if some were not found.', 'zh-CN': '如果全部命令都找到了, 输出0; 否则输出1.'},
+                name: {en: 'No output, just return 0 if all of the executables are found, or 1 if some were not found.', 'zh-CN': '如果全部命令都找到了, 输出0; 否则输出1.'},
                 cmd: ['-s'],
               },
             ],
