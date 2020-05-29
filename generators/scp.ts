@@ -155,6 +155,7 @@ const generatorInfo:Generator = {
               'zh-CN':  '可选. 密钥文件路径',
             },
             type: 'string',
+            multiple: true,
             cmd: ['-i'],
           },
         ],

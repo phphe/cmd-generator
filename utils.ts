@@ -15,6 +15,7 @@ export interface FormControl{
   controls?: FormControl[],
   getCmd?: (info: getCmdArg) => string,
   ignoreValue?: boolean // don't join value to result
+  hideLabel?: boolean // refer the generator of ssh
 }
 
 export interface controlsObject{
@@ -25,6 +26,7 @@ export type MixedMultipleControlValue = (string|string[])[][]
 export interface getCmdArg{
   control: FormControl
   usage: Usage
+  longFormat: boolean // long format option name preferred
   getControlByID: (id: string) => FormControl
 }
 
