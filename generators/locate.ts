@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '查找符合条件的文档, 相比于find, 它有一个数据表.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['find', 'which'],
   usages: [
     {
       name: ut.defaultUsageName,

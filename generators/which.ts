@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '搜索命令行的路径.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['find', 'locate'],
   usages: [
     {
       name: ut.defaultUsageName,

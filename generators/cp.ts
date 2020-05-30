@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '复制单个或多个文件或目录',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['mv', 'rm'],
   usages: [
     {
       name: ut.defaultUsageName,

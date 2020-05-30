@@ -32,7 +32,6 @@ const generatorInfo:Generator = {
     'zh-CN': '改变文件或目录权限.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['chown'],
   usages: [
     {
       name: {en: 'Change permissions', 'zh-CN': '改变权限'},

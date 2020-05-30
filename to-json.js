@@ -20,4 +20,8 @@ setTimeout(() => {
       }, 2))
     }
   })
+
+  const relation = require('./dist/relation.js').default
+  const meta = {relation}
+  fs.writeFileSync(p('generators-json/__meta.json'), JSON.stringify(meta, null, 2))
 }, 200)

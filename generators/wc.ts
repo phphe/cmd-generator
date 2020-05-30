@@ -9,11 +9,10 @@ const controls: ut.controlsObject = {}
 const generatorInfo:Generator = {
   name: 'wc',
   description: {
-    en: 'Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.  A word is a non-zero-length sequence of characters delimited by white space.',
-    'zh-CN': '打印每个文件的换行符，单词和字节数，如果指定了多个文件，则打印总行. 单词是由空格分隔的非零长度字符序列.',
+    en: 'Print newline, word, and byte counts for each file, and a total line if more than one file is specified.  A word is a non-zero-length sequence of characters delimited by white space.',
+    'zh-CN': '统计文件的换行符，单词和字节数，如果指定了多个文件，则打印总行. 单词是由空格分隔的非零长度字符序列.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   usages: [
     {
       name: ut.defaultUsageName,

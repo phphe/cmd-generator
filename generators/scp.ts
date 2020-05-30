@@ -21,17 +21,6 @@ const generatorInfo:Generator = {
     'zh-CN': '使用ssh传输文件.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [
-    "rcp",
-    "sftp",
-    "ssh",
-    "ssh-add",
-    "ssh-agent",
-    "ssh-keygen",
-    "ssh-config",
-    "sshd",
-    "scp"
-  ],
   usages: [
     {
       name: ut.defaultUsageName,

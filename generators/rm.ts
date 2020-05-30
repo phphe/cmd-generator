@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '删除单个或多个文件或目录',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['cp', 'mv'],
   usages: [
     {
       name: ut.defaultUsageName,

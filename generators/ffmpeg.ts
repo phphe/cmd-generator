@@ -100,7 +100,6 @@ const generatorInfo:Generator = {
     'zh-CN': 'ffmpeg 是一个快速的音视频转码器.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   usages: [
     {
       name: {en: 'Show media file info', 'zh-CN': '显示媒体文件信息'},

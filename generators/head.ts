@@ -15,7 +15,6 @@ With no FILE, or when FILE is -, read standard input.`,
     'zh-CN': `将每个FILE的前10行打印成标准输出。\n如果有一个以上的FILE，在每一个FILE前都要有一个文件名的标题.\n如果没有FILE，或者FILE为-时，读取标准输入.`,
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['tail'],
   usages: [
     {
       name: ut.defaultUsageName,

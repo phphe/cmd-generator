@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     "zh-CN": "总结给定文件的磁盘使用情况。"
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['df', 'du'],
   usages: [
     {
       name: ut.defaultUsageName,

@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '在文件内容中搜索PATTERN.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   usages: [
     {
       name: ut.defaultUsageName,

@@ -88,7 +88,6 @@ const generatorInfo:Generator = {
   name: 'bsdtar',
   description: `tar(bsdtar): manipulate archive files`,
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['tar'],
   cmdName: 'tar',
   usages: [
     {

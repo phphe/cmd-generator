@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '分屏显示输出信息，或查看指定文件的内容.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   usages: [
     {
       name: ut.defaultUsageName,

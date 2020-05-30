@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '在指定目录搜索文件.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   usages: [
     {
       name: ut.defaultUsageName,

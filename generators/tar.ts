@@ -81,7 +81,6 @@ const generatorInfo:Generator = {
     'zh-CN': `GNU 'tar' 将许多文件保存在一个存档中，并可以从存档中恢复文件.`
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['bsdtar'],
   usages: [
     {
       ...baseUsage,

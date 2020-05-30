@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '显示系统内存使用情况，包括物理内存、交互区内存(swap)和内核缓冲区内存.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   usages: [
     {
       name: ut.defaultUsageName,

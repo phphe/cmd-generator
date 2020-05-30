@@ -94,7 +94,6 @@ const generatorInfo:Generator = {
     'zh-CN': '创建硬链接，软链接(符号链接).',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   usages: [
     {
       name: {en: 'Create single hard link', 'zh-CN': '创建单个硬链接'},

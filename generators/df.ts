@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     "zh-CN": "显示可用硬盘空间。"
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['df', 'du'],
   usages: [
     {
       name: ut.defaultUsageName,

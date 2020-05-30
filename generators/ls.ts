@@ -13,7 +13,6 @@ const generatorInfo:Generator = {
     'zh-CN': '列出文件',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: [],
   optionNameValueSeparator: '=',
   usages: [
     {

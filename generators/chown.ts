@@ -77,7 +77,6 @@ const generatorInfo:Generator = {
     'zh-CN': '把文件或者目录的权限分配给某用户或者组.',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ['chmod'],
   usages: [
     {
       name: {en: 'Change ownership', 'zh-CN': '改变归属'},

@@ -177,7 +177,6 @@ const generatorInfo:Generator = {
     'zh-CN': 'SSH（Secure Shell）是一种加密的网络协议，用于在不安全的网络上安全地操作网络服务，典型的应用包括远程命令行、登录、远程命令执行等，但任何网络服务都可以用SSH来安全地执行。',
   },
   contributors: [{name: 'phphe', url: 'https://github.com/phphe'}],
-  related: ["ssh-keygen","sshfs","ssh-agent","ssh-keyscan","sshpass","sshuttle","ssh","autossh","ssh-add","logwatch","ssh-copy-id", 'autossh'],
   usages: [
     {
       name: {en: 'Only login', 'zh-CN': '仅登录'},
