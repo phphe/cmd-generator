@@ -21,6 +21,10 @@ const generatorInfo:Generator = {
         controls: [
           {
             name: {en: 'Directory', 'zh-CN': '目录'},
+            description: {
+              en: 'Search in the specified directory.',
+              'zh-CN': '在指定目录搜索',
+            },
             type: 'string',
             multiple: true,
             cmdPriority: 0,
