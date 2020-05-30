@@ -2,7 +2,7 @@ export interface FormControl{
   id?: string // to mark control, useful when you use getCmd' value
   name?: string|I18nString
   description?: string|I18nString
-  type: 'string' | 'select' | 'check' | 'mixed'
+  type: 'string' | 'select' | 'check' | 'mixed'|'document'
   multiple?: boolean
   items?: SelectItem[]
   cmd?: CMD
@@ -28,6 +28,7 @@ export interface getCmdArg{
   usage: Usage
   longFormat: boolean // long format option name preferred
   getControlByID: (id: string) => FormControl
+  cmd: string
 }
 
 type ControlValue = string|string[]
