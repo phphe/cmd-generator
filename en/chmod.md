@@ -1,0 +1,22 @@
+## Example
+
+- `chmod [mode] [file]`: Changes the permission mode of a file/directory.
+- `chmod [options] [mode] [file]`: Changes the permission mode of a file/directory and specifies the corresponding parameters. Common options are as follows:
+  - `c`: Displays the action taken only if the file's permission is actually changed.
+  - `f`: Suppresses error messages.
+  - `v`: Displays detailed processing information for permission changes.
+  - `R`: Processes all files and subdirectories in the specified directory recursively.
+- The format of the permission mode is `[ugoa...][[+-=][rwxXstugo...]...][,...]` where:
+  - `u` represents the file owner, `g` represents the user group to which the file owner belongs, `o` represents other users, and `a` represents all users.
+  - `+` adds permission, ``removes permission, and`=` sets permission.
+  - `r` represents read permission, `w` represents write permission, `x` represents execute permission, and `X` represents execute permission only when the file is a directory or at least one user already has execute permission for the file.
+  - `s` represents setting the SUID or SGID bit, `t` represents setting the sticky bit, `u` represents that the permission is only valid for the file owner, `g` represents that the permission is only valid for the user group to which the file belongs, and `o` represents that the permission is only valid for other users.
+- Here are some common permission modes:
+  - `chmod u+x [file]`: Adds execute permission for file owner.
+  - `chmod a=rw [file]`: Sets read/write permission for all users.
+  - `chmod 755 [dir]`: Sets the directory's permission to `rwxr-xr-x`, where the file owner has read, write, and execute permission, and other users have read and execute permission.
+  - `chmod -R u+w [dir]`: Recursively adds write permission for the file owner for the directory and all files in its subdirectories.
+- `chmod u+x [file]`, Adds execute permission for file owner.
+- `chmod a=rw [file]`, Sets read/write permission for all users.
+- `chmod 755 [dir]`, Sets the directory's permission to `rwxr-xr-x`, where the file owner has read, write, and execute permission, and other users have read and execute permission.
+- `chmod -R u+w [dir]`, Recursively adds write permission for the file owner for the directory and all files in its subdirectories.
