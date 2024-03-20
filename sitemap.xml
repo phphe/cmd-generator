@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://cmdgenerator.phphe.com/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/about/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/about/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/about/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/adduser/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/adduser/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/adduser/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/alias/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/alias/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/alias/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/apt-get/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/apt-get/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/apt-get/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/apt/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/apt/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/apt/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/at/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/at/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/at/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/awk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/awk/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/awk/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/blkid/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/blkid/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/blkid/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/cat/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cat/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cat/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/cd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/chgrp/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/chgrp/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/chgrp/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/chmod/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/chmod/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/chmod/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/chown/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/chown/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/chown/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/cp/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cp/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cp/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/crontab/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/crontab/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/crontab/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/curl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/curl/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/curl/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/cut/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cut/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cut/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/dd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/dd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/dd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/df/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/df/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/df/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/diff/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/diff/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/diff/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/dig/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/dig/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/dig/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/du/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/du/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/du/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/echo/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/echo/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/echo/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/emacs/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/emacs/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/emacs/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/export/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/export/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/export/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/fdisk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/fdisk/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/fdisk/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ffmpeg/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ffmpeg/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ffmpeg/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/find/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/find/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/find/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/firewalld/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/firewalld/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/firewalld/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/free/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/free/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/free/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/getenforce/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/getenforce/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/getenforce/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/grep/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/grep/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/grep/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/groupadd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/groupadd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/groupadd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/groupmod/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/groupmod/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/groupmod/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/gunzip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/gunzip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/gunzip/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/gzip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/gzip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/gzip/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/halt/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/halt/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/halt/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/head/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/head/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/head/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/history/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/history/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/history/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ifconfig/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ifconfig/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ifconfig/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/info/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/info/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/info/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/iptables/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/iptables/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/iptables/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/journalctl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/journalctl/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/journalctl/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/kill/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/kill/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/kill/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/less/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/less/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/less/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ln/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ln/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ln/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/locate/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/locate/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/locate/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ls/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ls/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ls/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/lsblk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/lsblk/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/lsblk/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/man/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/man/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/man/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/mkdir/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mkdir/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mkdir/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/mkfs/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mkfs/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mkfs/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/more/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/more/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/more/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/mount/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mount/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mount/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/mv/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mv/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mv/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/nano/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/nano/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/nano/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/netstat/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/netstat/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/netstat/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/nslookup/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/nslookup/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/nslookup/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/nuxi/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/nuxi/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/nuxi/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/passwd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/passwd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/passwd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/patch/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/patch/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/patch/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ping/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ping/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ping/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/pkill/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/pkill/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/pkill/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/poweroff/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/poweroff/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/poweroff/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ps/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ps/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ps/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/pwd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/pwd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/pwd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/reboot/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/reboot/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/reboot/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/rm/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rm/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rm/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/rmdir/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rmdir/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rmdir/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/route/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/route/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/route/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/rsync/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rsync/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rsync/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/rsyslogd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rsyslogd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rsyslogd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/scp/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/scp/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/scp/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/sed/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/sed/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/sed/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/semanage/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/semanage/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/semanage/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/setenforce/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/setenforce/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/setenforce/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/shutdown/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/shutdown/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/shutdown/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/sort/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/sort/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/sort/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/source/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/source/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/source/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ssh-keygen/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ssh-keygen/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ssh-keygen/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ssh/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ssh/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ssh/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/su/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/su/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/su/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/sudo/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/sudo/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/sudo/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/systemctl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/systemctl/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/systemctl/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/tail/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/tail/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/tail/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/tar/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/tar/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/tar/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/tee/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/tee/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/tee/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/top/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/top/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/top/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/touch/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/touch/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/touch/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/traceroute/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/traceroute/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/traceroute/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/ufw/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ufw/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ufw/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/umount/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/umount/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/umount/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/uniq/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/uniq/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/uniq/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/unzip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/unzip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/unzip/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/updatedb/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/updatedb/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/updatedb/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/uptime/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/uptime/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/uptime/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/usermod/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/usermod/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/usermod/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/vi/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/vi/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/vi/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/vim/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/vim/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/vim/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/vmstat/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/vmstat/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/vmstat/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/wc/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/wc/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/wc/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/wget/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/wget/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/wget/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/whereis/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/whereis/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/whereis/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/which/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/which/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/which/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/whois/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/whois/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/whois/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/yum/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/yum/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/yum/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/cmd-generators/zip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/zip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/zip/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/about/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/about/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/about/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/adduser/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/adduser/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/adduser/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/alias/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/alias/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/alias/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/apt-get/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/apt-get/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/apt-get/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/apt/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/apt/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/apt/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/at/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/at/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/at/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/awk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/awk/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/awk/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/blkid/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/blkid/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/blkid/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/cat/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cat/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cat/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/cd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/chgrp/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/chgrp/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/chgrp/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/chmod/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/chmod/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/chmod/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/chown/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/chown/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/chown/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/cp/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cp/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cp/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/crontab/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/crontab/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/crontab/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/curl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/curl/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/curl/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/cut/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/cut/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/cut/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/dd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/dd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/dd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/df/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/df/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/df/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/diff/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/diff/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/diff/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/dig/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/dig/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/dig/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/du/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/du/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/du/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/echo/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/echo/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/echo/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/emacs/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/emacs/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/emacs/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/export/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/export/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/export/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/fdisk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/fdisk/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/fdisk/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ffmpeg/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ffmpeg/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ffmpeg/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/find/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/find/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/find/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/firewalld/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/firewalld/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/firewalld/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/free/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/free/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/free/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/getenforce/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/getenforce/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/getenforce/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/grep/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/grep/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/grep/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/groupadd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/groupadd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/groupadd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/groupmod/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/groupmod/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/groupmod/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/gunzip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/gunzip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/gunzip/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/gzip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/gzip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/gzip/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/halt/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/halt/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/halt/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/head/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/head/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/head/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/history/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/history/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/history/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ifconfig/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ifconfig/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ifconfig/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/info/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/info/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/info/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/iptables/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/iptables/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/iptables/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/journalctl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/journalctl/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/journalctl/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/kill/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/kill/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/kill/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/less/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/less/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/less/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ln/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ln/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ln/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/locate/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/locate/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/locate/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ls/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ls/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ls/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/lsblk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/lsblk/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/lsblk/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/man/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/man/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/man/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/mkdir/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mkdir/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mkdir/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/mkfs/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mkfs/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mkfs/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/more/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/more/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/more/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/mount/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mount/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mount/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/mv/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/mv/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/mv/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/nano/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/nano/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/nano/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/netstat/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/netstat/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/netstat/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/nslookup/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/nslookup/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/nslookup/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/nuxi/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/nuxi/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/nuxi/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/passwd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/passwd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/passwd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/patch/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/patch/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/patch/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ping/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ping/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ping/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/pkill/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/pkill/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/pkill/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/poweroff/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/poweroff/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/poweroff/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ps/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ps/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ps/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/pwd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/pwd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/pwd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/reboot/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/reboot/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/reboot/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/rm/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rm/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rm/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/rmdir/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rmdir/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rmdir/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/route/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/route/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/route/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/rsync/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rsync/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rsync/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/rsyslogd/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/rsyslogd/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/rsyslogd/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/scp/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/scp/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/scp/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/sed/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/sed/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/sed/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/semanage/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/semanage/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/semanage/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/setenforce/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/setenforce/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/setenforce/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/shutdown/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/shutdown/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/shutdown/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/sort/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/sort/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/sort/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/source/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/source/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/source/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ssh-keygen/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ssh-keygen/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ssh-keygen/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ssh/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ssh/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ssh/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/su/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/su/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/su/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/sudo/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/sudo/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/sudo/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/systemctl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/systemctl/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/systemctl/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/tail/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/tail/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/tail/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/tar/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/tar/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/tar/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/tee/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/tee/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/tee/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/top/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/top/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/top/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/touch/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/touch/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/touch/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/traceroute/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/traceroute/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/traceroute/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/ufw/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/ufw/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/ufw/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/umount/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/umount/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/umount/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/uniq/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/uniq/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/uniq/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/unzip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/unzip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/unzip/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/updatedb/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/updatedb/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/updatedb/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/uptime/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/uptime/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/uptime/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/usermod/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/usermod/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/usermod/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/vi/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/vi/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/vi/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/vim/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/vim/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/vim/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/vmstat/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/vmstat/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/vmstat/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/wc/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/wc/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/wc/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/wget/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/wget/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/wget/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/whereis/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/whereis/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/whereis/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/which/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/which/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/which/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/whois/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/whois/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/whois/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/yum/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/yum/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/yum/" />
+    </url>
+    <url>
+        <loc>https://cmdgenerator.phphe.com/zh/cmd-generators/zip/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://cmdgenerator.phphe.com/cmd-generators/zip/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://cmdgenerator.phphe.com/zh/cmd-generators/zip/" />
+    </url>
+</urlset>
+<!-- XML Sitemap generated by @nuxtjs/sitemap v5.1.2 at 2024-03-20T16:36:09.462Z -->
