@@ -1,0 +1,1 @@
+import{c as e}from"./useStore-izQPFi5H.js";import{Cs as t,ms as n,ps as r}from"./index-CuuySsHj.js";import{t as i}from"./CmdLayout-DtRM8fCV.js";var a=e(),o=[{value:`to-remote`,label:n(),path:`/cmd-generators/scp`},{value:`from-remote`,label:r(),path:`/cmd-generators/scp/from-remote`}],s=()=>(0,a.jsx)(i,{name:`scp`,description:t(),tabs:o});export{s as component};

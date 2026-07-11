@@ -1,0 +1,1 @@
+import{WD as e}from"./index-CuuySsHj.js";var t=e;export{t as component};

@@ -1,0 +1,3361 @@
+{
+  "pages": [
+    {
+      "path": "/cmd-generators/tar",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/tar",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/tar",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/tar",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/tar",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/tar",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/curl",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/curl",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/curl",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/curl",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/curl",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/curl",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/adduser",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/adduser",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/adduser",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/adduser",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/adduser",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/adduser",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/alias",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/alias",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/alias",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/alias",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/alias",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/alias",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/apt-get",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/apt-get",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/apt-get",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/apt-get",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/apt-get",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/apt-get",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/apt",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/apt",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/apt",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/apt",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/apt",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/apt",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/at",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/at",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/at",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/at",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/at",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/at",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/awk",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/awk",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/awk",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/awk",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/awk",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/awk",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/blkid",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/blkid",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/blkid",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/blkid",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/blkid",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/blkid",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/cat",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cat",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cat",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/cat",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cat",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cat",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/cd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/cd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/chgrp",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/chgrp",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/chgrp",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/chgrp",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/chgrp",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/chgrp",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/chmod",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/chmod",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/chmod",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/chmod",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/chmod",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/chmod",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/chown",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/chown",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/chown",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/chown",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/chown",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/chown",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/cp",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cp",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cp",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/cp",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cp",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cp",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/crontab",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/crontab",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/crontab",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/crontab",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/crontab",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/crontab",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/cut",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cut",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cut",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/cut",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/cut",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/cut",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/dd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/dd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/dd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/dd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/dd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/dd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/df",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/df",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/df",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/df",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/df",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/df",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/diff",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/diff",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/diff",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/diff",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/diff",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/diff",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/dig",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/dig",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/dig",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/dig",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/dig",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/dig",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/du",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/du",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/du",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/du",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/du",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/du",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/echo",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/echo",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/echo",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/echo",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/echo",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/echo",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/emacs",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/emacs",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/emacs",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/emacs",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/emacs",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/emacs",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/export",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/export",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/export",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/export",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/export",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/export",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/fdisk",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/fdisk",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/fdisk",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/fdisk",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/fdisk",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/fdisk",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/find",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/find",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/find",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/find",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/find",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/find",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/firewall-cmd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/firewall-cmd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/firewall-cmd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/firewall-cmd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/firewall-cmd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/firewall-cmd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/free",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/free",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/free",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/free",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/free",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/free",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/getenforce",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/getenforce",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/getenforce",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/getenforce",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/getenforce",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/getenforce",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/grep",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/grep",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/grep",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/grep",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/grep",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/grep",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/groupadd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/groupadd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/groupadd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/groupadd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/groupadd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/groupadd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/groupmod",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/groupmod",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/groupmod",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/groupmod",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/groupmod",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/groupmod",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/gunzip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/gunzip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/gunzip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/gunzip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/gunzip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/gunzip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/gzip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/gzip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/gzip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/gzip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/gzip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/gzip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/halt",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/halt",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/halt",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/halt",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/halt",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/halt",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/head",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/head",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/head",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/head",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/head",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/head",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/history",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/history",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/history",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/history",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/history",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/history",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ifconfig",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ifconfig",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ifconfig",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ifconfig",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ifconfig",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ifconfig",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/info",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/info",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/info",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/info",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/info",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/info",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/iptables",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/iptables",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/iptables",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/iptables",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/iptables",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/iptables",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/journalctl",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/journalctl",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/journalctl",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/journalctl",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/journalctl",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/journalctl",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/kill",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/kill",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/kill",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/kill",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/kill",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/kill",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/less",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/less",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/less",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/less",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/less",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/less",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ln",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ln",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ln",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ln",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ln",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ln",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/locate",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/locate",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/locate",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/locate",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/locate",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/locate",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ls",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ls",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ls",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ls",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ls",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ls",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/lsblk",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/lsblk",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/lsblk",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/lsblk",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/lsblk",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/lsblk",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/man",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/man",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/man",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/man",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/man",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/man",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/mkdir",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mkdir",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mkdir",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/mkdir",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mkdir",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mkdir",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/mkfs",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mkfs",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mkfs",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/mkfs",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mkfs",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mkfs",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/more",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/more",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/more",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/more",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/more",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/more",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/mount",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mount",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mount",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/mount",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mount",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mount",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/mv",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mv",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mv",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/mv",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/mv",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/mv",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/nano",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/nano",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/nano",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/nano",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/nano",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/nano",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/netstat",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/netstat",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/netstat",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/netstat",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/netstat",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/netstat",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/nslookup",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/nslookup",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/nslookup",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/nslookup",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/nslookup",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/nslookup",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/nuxi",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/nuxi",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/nuxi",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/nuxi",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/nuxi",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/nuxi",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/passwd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/passwd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/passwd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/passwd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/passwd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/passwd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/patch",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/patch",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/patch",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/patch",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/patch",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/patch",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ping",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ping",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ping",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ping",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ping",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ping",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/pkill",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/pkill",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/pkill",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/pkill",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/pkill",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/pkill",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/poweroff",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/poweroff",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/poweroff",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/poweroff",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/poweroff",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/poweroff",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ps",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ps",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ps",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ps",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ps",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ps",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/pwd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/pwd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/pwd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/pwd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/pwd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/pwd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/reboot",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/reboot",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/reboot",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/reboot",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/reboot",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/reboot",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/rm",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rm",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rm",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/rm",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rm",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rm",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/rmdir",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rmdir",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rmdir",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/rmdir",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rmdir",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rmdir",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/route-cmd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/route-cmd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/route-cmd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/route-cmd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/route-cmd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/route-cmd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/rsync",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rsync",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rsync",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/rsync",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rsync",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rsync",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/rsyslogd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rsyslogd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rsyslogd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/rsyslogd",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/rsyslogd",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/rsyslogd",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/scp",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/scp",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/scp",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/scp",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/scp",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/scp",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/sed",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/sed",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/sed",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/sed",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/sed",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/sed",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/semanage",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/semanage",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/semanage",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/semanage",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/semanage",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/semanage",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/setenforce",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/setenforce",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/setenforce",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/setenforce",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/setenforce",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/setenforce",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/shutdown",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/shutdown",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/shutdown",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/shutdown",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/shutdown",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/shutdown",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/sort",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/sort",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/sort",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/sort",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/sort",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/sort",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/source",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/source",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/source",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/source",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/source",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/source",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ssh-keygen",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ssh-keygen",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ssh-keygen",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ssh-keygen",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ssh-keygen",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ssh-keygen",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ssh",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ssh",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ssh",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ssh",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ssh",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ssh",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/su",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/su",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/su",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/su",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/su",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/su",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/sudo",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/sudo",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/sudo",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/sudo",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/sudo",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/sudo",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/systemctl",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/systemctl",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/systemctl",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/systemctl",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/systemctl",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/systemctl",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/tail",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/tail",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/tail",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/tail",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/tail",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/tail",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/tee",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/tee",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/tee",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/tee",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/tee",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/tee",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/top",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/top",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/top",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/top",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/top",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/top",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/touch",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/touch",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/touch",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/touch",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/touch",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/touch",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/traceroute",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/traceroute",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/traceroute",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/traceroute",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/traceroute",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/traceroute",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ufw",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ufw",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ufw",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ufw",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ufw",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ufw",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/umount",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/umount",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/umount",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/umount",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/umount",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/umount",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/uniq",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/uniq",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/uniq",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/uniq",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/uniq",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/uniq",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/unzip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/unzip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/unzip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/unzip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/unzip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/unzip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/updatedb",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/updatedb",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/updatedb",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/updatedb",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/updatedb",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/updatedb",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/uptime",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/uptime",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/uptime",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/uptime",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/uptime",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/uptime",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/usermod",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/usermod",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/usermod",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/usermod",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/usermod",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/usermod",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/vi",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/vi",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/vi",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/vi",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/vi",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/vi",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/vmstat",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/vmstat",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/vmstat",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/vmstat",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/vmstat",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/vmstat",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/wc",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/wc",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/wc",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/wc",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/wc",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/wc",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/wget",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/wget",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/wget",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/wget",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/wget",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/wget",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/whereis",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/whereis",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/whereis",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/whereis",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/whereis",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/whereis",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/which",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/which",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/which",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/which",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/which",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/which",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/whois",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/whois",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/whois",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/whois",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/whois",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/whois",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/yum",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/yum",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/yum",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/yum",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/yum",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/yum",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/zip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/zip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/zip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/zip",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/zip",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/zip",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/cmd-generators/ffmpeg",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ffmpeg",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ffmpeg",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/zh/cmd-generators/ffmpeg",
+      "sitemap": {
+        "alternateRefs": [
+          {
+            "href": "https://cmdgenerator.org/cmd-generators/ffmpeg",
+            "hreflang": "en"
+          },
+          {
+            "href": "https://cmdgenerator.org/zh/cmd-generators/ffmpeg",
+            "hreflang": "zh"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/"
+    },
+    {
+      "path": "/cmd-generators"
+    },
+    {
+      "path": "/support-us"
+    },
+    {
+      "path": "/cmd-generators/adduser/group"
+    },
+    {
+      "path": "/cmd-generators/adduser/system"
+    },
+    {
+      "path": "/cmd-generators/curl/download"
+    },
+    {
+      "path": "/cmd-generators/curl/upload"
+    },
+    {
+      "path": "/cmd-generators/ffmpeg/compress"
+    },
+    {
+      "path": "/cmd-generators/ffmpeg/cut"
+    },
+    {
+      "path": "/cmd-generators/ffmpeg/extract"
+    },
+    {
+      "path": "/cmd-generators/ffmpeg/gpu"
+    },
+    {
+      "path": "/cmd-generators/ffmpeg/resize"
+    },
+    {
+      "path": "/cmd-generators/rsync/from-remote"
+    },
+    {
+      "path": "/cmd-generators/rsync/to-remote"
+    },
+    {
+      "path": "/cmd-generators/scp/from-remote"
+    },
+    {
+      "path": "/cmd-generators/ssh/dynamic"
+    },
+    {
+      "path": "/cmd-generators/ssh/local-fwd"
+    },
+    {
+      "path": "/cmd-generators/ssh/remote-fwd"
+    },
+    {
+      "path": "/cmd-generators/systemctl/enable"
+    },
+    {
+      "path": "/cmd-generators/systemctl/query"
+    },
+    {
+      "path": "/cmd-generators/systemctl/system"
+    },
+    {
+      "path": "/cmd-generators/tar/append"
+    },
+    {
+      "path": "/cmd-generators/tar/extract"
+    },
+    {
+      "path": "/cmd-generators/tar/list"
+    },
+    {
+      "path": "/cmd-generators/ufw/rules"
+    },
+    {
+      "path": "/cmd-generators/ufw/system"
+    },
+    {
+      "path": "/cmd-generators/adduser/"
+    },
+    {
+      "path": "/cmd-generators/curl/"
+    },
+    {
+      "path": "/cmd-generators/ffmpeg/"
+    },
+    {
+      "path": "/cmd-generators/rsync/"
+    },
+    {
+      "path": "/cmd-generators/scp/"
+    },
+    {
+      "path": "/cmd-generators/ssh/"
+    },
+    {
+      "path": "/cmd-generators/systemctl/"
+    },
+    {
+      "path": "/cmd-generators/tar/"
+    },
+    {
+      "path": "/cmd-generators/ufw/"
+    },
+    {
+      "path": "/zh/",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/curl/download",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/curl/upload",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/support-us",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/tar/extract",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/tar/append",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/tar/list",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/adduser/system",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/adduser/group",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/rsync/to-remote",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/rsync/from-remote",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/scp/from-remote",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ssh/local-fwd",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ssh/remote-fwd",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ssh/dynamic",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/systemctl/enable",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/systemctl/query",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/systemctl/system",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ufw/rules",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ufw/system",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ffmpeg/compress",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ffmpeg/cut",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ffmpeg/extract",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ffmpeg/resize",
+      "fromCrawl": true
+    },
+    {
+      "path": "/zh/cmd-generators/ffmpeg/gpu",
+      "fromCrawl": true
+    }
+  ],
+  "host": "https://cmdgenerator.org",
+  "lastBuilt": "2026-07-11T15:37:38.756Z"
+}
